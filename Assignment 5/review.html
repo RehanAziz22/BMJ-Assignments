@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Details</title>
+</head>
+
+<body>
+
+    <!-- Form start -->
+    <form action="">
+        <center>
+            <!-- table start -->
+            <table border="0" cellpadding="7" cellspacing="0">
+                <tr>
+                    <td bgcolor="#a4dd9e">Step 1: Account </td>
+                    <td bgcolor="#a4dd9e">Step 2: Personal Details</td>
+                    <td bgcolor="72a3de">Step 3: Your Review</td>
+
+                </tr>
+            </table>
+            <br/>
+            <!-- table end -->
+        </center>
+        <!-- reviews -->
+        <fieldset>
+            <legend>Your Review:</legend>
+            <br />
+            <!-- review Question  -->
+            <label>How did you here about us?</label>
+            <select name="question">
+                <option value="Social Media">Social Media</option>
+                <option value="News Paper">News Paper</option>
+                <option value="Advertisement">Advertisement</option>
+            </select><br />
+
+            <!-- visit or not -->
+            <p>Would you visit again?
+                <br />
+                <input type="checkbox" name="question" value="yes" checked="checked" /> Yes
+                <input type="checkbox" name="question" value="no" /> No
+                <input type="checkbox" name="question" value="may be" /> Maybe
+            </p>
+
+            <!-- comments -->
+            <p>Comments:<br />
+                <textarea name="comments" cols="40" rows="4">Enter your comment here</textarea>
+            </p>
+
+            <!-- documents -->
+            <p>Documents<br />
+                <input type="file" name="Choose file:" required="required" /><br />
+            </p>
+
+            <!-- email updates -->
+            <input type="checkbox" name="updates" value="email updates" /> Sign me up for email updates <br />
+            <br>
+
+
+             <!-- back button -->
+             <a href="./personal_details.html"><img type="image" value="Save" src="./Images/back.png" width="120" height="30" /></a>
+             <!-- next button -->
+             <a href="./index.html"><img type="image" src="./Images/next.png" width="120" height="30" /></a>
+
+            
+        </fieldset>
+    </form>
+</body>
+
+</html>
