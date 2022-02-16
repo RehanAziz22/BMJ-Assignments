@@ -1,0 +1,815 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+    background-repeat: no-repeat;
+    /* background-size: 100% auto; */
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000000;
+    background-image: url("./assets/img-2/body/body_bg.png");
+    
+}
+.header {
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+
+.header-con-1 ul {
+    overflow-x: scroll;
+    display: flex;
+}
+
+.header-con-1 {
+    /* border: 2px solid green; */
+    /* height: 62px; */
+    padding: 1px;
+    background: #F5F5F5;
+
+}
+
+.header-con-2 {
+    /* border: 2px solid purple; */
+    height: 60px;
+    max-width: 80%;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.header-con-1 ul::-webkit-scrollbar {
+    display: none;
+}
+
+/* .header-con-1 ul li {
+    border: 2px solid green;
+    display: inline-block;
+    margin: 0px auto;
+} */
+
+.header-con-1 img {
+    min-width: 70px;
+    height: 100%;
+    max-width: 100%;
+}
+
+.header-con-2 ul {
+    overflow-x: scroll;
+    display: flex;
+}
+
+.header-con-2 ul li {
+    border: 1px solid #d9d9d9;
+    display: inline-block;
+    margin: 2px 2px;
+    height: 55px;
+    width: 100%;
+}
+
+/* ------------- end header 1---------------- */
+.header2-con-1 ul {
+    overflow-x: scroll;
+    display: flex;
+
+}
+
+.header2-con-1 {
+    /* border: 2px solid green; */
+    /* height: 62px; */
+    padding: 1px;
+    background: #FFFFFF;
+    
+
+}
+
+.header2-con-2 {
+    /* border: 2px solid purple; */
+    /* height: 60px; */
+    max-width: 80%;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.header2-con-1 ul::-webkit-scrollbar {
+    display: none;
+}
+
+.header2-con-2 ul li {
+    /* border: 1px solid #d9d9d9 ; */
+    display: inline-block;
+    margin: 2px 2px;
+    width: 100%;
+    padding-bottom: 5px;
+    /* height: 55px; */
+
+}
+
+.header2-con-2 ul li:hover {
+    /* background: #E64824; */
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.header2-con-2 ul li i:hover {
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.header2-con-2 ul li img:hover {
+
+color: #FFFFFF;
+}
+
+.header2-con-1 img {
+    min-width: 25px;
+    height: 25px;
+    max-width: 100%;
+    margin: 15px 0 4px;
+
+}
+
+.header2-con-1 i {
+    min-width: 25px;
+    max-width: 100%;
+    margin: 15px 0 8px;
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+.header2-con-1 img,
+i {
+    color: #919191;
+}
+
+.header2-con-2 span {
+    font-size: 12px;
+}
+
+.headerlist-2:hover{
+background: #E64824;
+}
+
+.headerlist-3:hover{
+    background: #F28D5F;
+}
+
+.headerlist-4:hover{
+    background: #E6BC2F;
+}
+
+.headerlist-5:hover{
+    background: #4DAD5B;
+}
+
+.headerlist-6:hover{
+    background: #30A7D7;
+}
+
+.headerlist-7:hover{
+    background: #1B53BA;
+}
+
+/* --------------------------------end header 2------------------------------------- */
+        /* Float four topcolumns side by side */
+        .topcolumn {
+            float: left;
+            width: 32%;
+            padding: 10px 10px;
+            /* margin: 31px; */
+        }
+
+        .topcolumn1 {
+            float: left;
+            width: 63%;
+            /* height: 327px; */
+            padding: 10px 10px;
+        }
+
+        .toptopcolumn2 {
+            float: left;
+            width: 33%;
+            /* height: 327px; */
+            padding: 10px 10px;
+            height: 150px;
+        }
+
+        .topcolumn3 {
+            float: left;
+            width: 33%;
+            /* height: 327px; */
+            padding: 10px 10px;
+        }
+
+
+        /* Remove extra left and right margins, due to padding */
+        .toppromos {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            background: #ffffff;
+            background-image: url("assets/img-2/body/container_bg.png");
+            font-family: Flexo-Medium, arial, sans-serif;
+            /* margin: 0 -5px; */
+        }
+
+        .toprow {
+            background: #ffffff;
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            padding-top: 50px;
+            /* margin: 0 -5px; */
+        }
+        .toprow2{
+            background: #ffffff;
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            padding-bottom: 50px;
+
+        }
+
+        /* Clear floats after the topcolumns */
+        .toprow,.toprow2:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive topcolumns */
+        @media screen and (max-width: 960px) {
+
+            .topcolumn,
+            .topcolumn1,
+            .toptopcolumn2,
+            .topcolumn3,
+            .topcolumn4,
+            .topcolumn5,
+            .topcolumn6 {
+                width: 100%;
+                display: block;
+                margin-bottom: 30px;
+            }
+
+            .toppromos{
+                width: 100%;
+            }
+            .toprow, .toprow2 {
+                width: 80%;
+            }
+
+        }
+
+        @media screen and (min-width: 960px) {
+
+            .topcard {
+                /* height: 345px; */
+            }
+        }
+
+        /* Style the counter cards */
+        .topcard {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            background-color: #f1f1f1;
+
+        }
+
+        .toppromo-card-content {
+            padding: 16px;
+
+        }
+
+        .toppromo-card2 .toppromo-card-content {
+            width: 60%;
+            float: right;
+            background: #ee6b2f;
+            height: 130px;
+        }
+
+        .topcard h2 {
+            font-size: 20px;
+            color: #212121;
+        }
+
+        .toppromo-card1 p {
+            font-size: 15px;
+            color: #616161;
+            padding-top: 10px;
+        }
+
+        .topcard img {
+            width: 100%;
+
+        }
+
+        .toppromo-card2 img {
+            width: 40%;
+            height: 130px;
+            float: left;
+        }
+
+        .toppromo-card1 {
+            border-radius: 5px;
+            background: #1b53ba;
+        }
+
+        .toppromo-card1:hover {
+            background: #1847D7;
+
+        }
+
+        .toppromo-card2 {
+            border-radius: 5px;
+            background: #ee6b2f;
+        }
+
+        .toppromo-card2 .toppromo-card-content:hover {
+          
+            background: #DA471B;
+            
+        }
+
+        .toppromo-card3 {
+            border-radius: 5px;
+          
+            background: #E6BC2F;
+            height: 275px;
+        }
+
+        .toppromo-card3:hover {
+            background: #DAA31C;
+        }
+
+        .toppromo-card4 {
+            border-radius: 5px;
+            background: #313131;
+            height: 300px;
+        
+        }
+
+        .toppromo-card4:hover {
+            background: #282828;
+        }
+
+        .toppromo-card5 {
+            border-radius: 5px;
+            background: #855ac9;
+            height: 300px;
+        }
+
+        .toppromo-card5:hover {
+            background: #734BB2;
+        }
+
+        .toppromo-card6 {
+            border-radius: 5px;
+            background: #ff5145;
+            height: 300px;
+
+        }
+
+        .toppromo-card6:hover {
+            background: #FF1F1C;
+        }
+
+        .toppromo-card1 h3,.toppromo-card2 h3,
+        .toppromo-card3 h3,
+        .toppromo-card4 h3,
+        .toppromo-card5 h3,
+        .toppromo-card6 h3 {
+            color: #ffffff;
+        }
+
+        .toppromo-card1 p {
+            color: #30a7d7;
+        }
+.card,.card-image,.column,.explore-more,.fas,.footer-img, li,h3,h1,h2{
+    cursor: pointer;
+}
+/* -----------------------Slider title--------------------------------- */
+.slider-title{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Flexo-Medium",arial,sans-serif;
+    font-size: 125%;
+}
+.slider-title h3{
+
+color: #919191;
+text-align: center;
+background: #232323;
+padding: 10px 0px;
+border-radius: 8px;
+}
+
+
+/* -----------------------------CARDS------------------------------ */
+.cards {
+    /* border: 2px solid #4DAD5B; */
+    height: 455px;
+    overflow-x: scroll;
+
+
+
+}
+
+.cards::-webkit-scrollbar {
+    width: 0 !important
+}
+
+.card1:hover {
+    /* width: 300px; */
+    height: 380px;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.cards ul li .image-content:hover{
+    /* overflow-x: hidden; */
+    height: 100px;
+    
+}
+
+.card1 {
+    width: 240px;
+    font-family: "Flexo-Bold", arial, sans-serif;
+    border: 2px solid #000000;
+}
+
+.cards ul {
+    display: flex;
+    /* overflow-x: hidden; */
+    padding-top: 20px;
+}
+
+.cards ul li {
+    display: inline-block;
+}
+
+.card-image img {
+    width: 100%;
+    height: 255px;
+}
+
+.card-image {
+    background: #616161;
+    width: 100%;
+
+}
+
+.image-content {
+    height: 117px;
+    background: #313131;
+}
+
+.image-content h3 {
+    color: #FFFFFF;
+    font-size: 150%;
+    width: 100%;
+    padding: 25px 20px;
+}
+/* -----------------------Explore button------------------------------------ */
+.explore-more{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Flexo-Medium",arial,sans-serif;
+    font-size: 90%;
+    padding: 33px 0px;
+}
+.explore-more h3{
+
+color: #ffffff;
+text-align: right;
+padding: 10px 0px;
+border-radius: 8px;
+}
+
+.explore-more span{
+    background: #282828;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* ----------------------Promo cards------------------------- */
+.section-title {
+    color: #919191;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 15px;
+    padding-top: 10px;
+    position: absolute;
+    top: 41%;
+    left: 33%;
+    min-width: 193px;
+    max-width: 222px;
+}
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 33%;
+    padding: 10px 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.promos {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+    background-image: url("assets/img-2/body/container_bg.png");
+    font-family: Flexo-Medium, arial, sans-serif;
+    /* margin: 0 -5px; */
+}
+
+.row {
+    background: #ffffff;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    /* margin: 0 -5px; */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 960px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+    }
+.promos{
+    width: 100%;
+}
+    .row {
+        width: 80%;
+    }
+    .section-title{
+        position: relative;
+        left: 0px;
+        padding: 28px 0px 0px;
+        width: 100%;
+        max-width: 900px;
+        min-width: 200px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+
+    .card {
+        height: 345px;
+    }
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+
+}
+
+.promo-card-content {
+    padding: 16px;
+
+}
+
+.card h2 {
+    font-size: 20px;
+    color: #212121;
+}
+
+.promo-card1 p {
+    font-size: 15px;
+    color: #616161;
+    padding-top: 10px;
+}
+
+.card img {
+    width: 100%;
+
+}
+
+.promo-card1 {
+    border-radius: 5px;
+    background: #a4a4a4;
+    margin: 24px auto;
+}
+
+.promo-card1:hover {
+    background: #8B8B8B;
+
+}
+
+.promo-card2 {
+    border-radius: 5px;
+    background: #1b53ba;
+}
+
+.promo-card2:hover {
+    background: #1847D7;
+}
+
+.promo-card3 {
+    border-radius: 5px;
+    background: #ee6b2f;
+    margin: 24px auto;
+}
+
+.promo-card3:hover {
+    background: #DA471B;
+}
+
+.promo-card4 {
+    border-radius: 5px;
+    background: #4dad5b;
+}
+
+.promo-card4:hover {
+    background: #369143;
+}
+
+.promo-card5 {
+    border-radius: 5px;
+    background: #313131;
+    margin: 30px auto;
+}
+
+.promo-card5:hover {
+    background: #282828;
+}
+
+.promo-card6 {
+    border-radius: 5px;
+    background: #E6BC2F;
+}
+
+.promo-card6:hover {
+    background: #DAA31C;
+}
+
+.promo-card2 h3,
+.promo-card3 h3,
+.promo-card4 h3,
+.promo-card5 h3,
+.promo-card6 h3 {
+    color: #ffffff;
+}
+
+.promo-card2 p {
+    color: #30a7d7;
+}
+
+.promo-card3 p {
+    color: #0e2011;
+}
+
+.promo-card4 p {
+    color: #4b1c06;
+}
+
+.promo-card5 p {
+    color: #cccccc;
+}
+
+.promo-card6 p {
+    color: #212121;
+}
+
+/* footer */
+.footer {
+    /* border: #E6BC2F 2px solid; */
+    padding: 20px 65px;
+    background: #1F1F1F;
+    text-align: center;
+}
+
+.section1,
+.section2,
+.section3 {
+    /* float: left;
+width: 28%;
+min-height: 203px; */
+    display: inline-block;
+    height: 160px;
+    padding: 20px;
+    text-align: left;
+}
+
+.section2 {
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section1 h2 {
+    background-image: url("./assets/img-2/footer/pokemon_company.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    max-width: 227px;
+    padding-top: 17%;
+    width: 90%;
+}
+
+.section1 ul{
+    color: #616161;
+    list-style: none;
+    
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.section1 ul span{
+    font-family: "Roboto",arial,sans-serif;
+}
+.section1 ul li i:hover{
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/*  */
+.footer-img {
+    background-image: url("assets/img-2/footer/social-icons.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 200px;
+    height: 24px;
+
+}
+
+.footer-img span {
+    display: none;
+}
+
+/*  */
+.section3{
+    width: 255px;
+    font-size: 11px;
+    color: #525252;
+    }
+.sec-3 {
+    display: flex;
+}
+
+.sec-3 h2 {
+    background-image: url("assets/img-2/footer/thepokemoncompanyinternational-seal-1596150491.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 100px;
+    height: 44px;
+}
+
+.sec-3 ul {
+    padding-left: 20px;
+    list-style: none;
+
+}
+
+.section1 ul li .fas{
+    opacity: 0.4;
+}
+.section3 p{
+margin-top: 10px;
+
+}
+@media only screen and (max-width: 875px){
+
+    .section1,.section2,.section3{
+        display: block;
+    }
+    .section2{
+        margin-top: 70px;
+        border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-left: none;
+    border-right: none;
+    height: 100%;
+    }
+
+    .section1 h2 {
+    padding-top: 10%;
+ }
+}

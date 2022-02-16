@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url("./body-background.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        
+        
+            
+        }
+        .form{
+            width: 50%;
+            
+            margin-left: auto;
+            margin-right: auto;
+            margin: 30px auto;
+        }
+        fieldset{
+            border:2px solid #000000;
+            backdrop-filter: blur(10px);
+        }
+        .textfields > input{
+            width: 100%;
+            margin-bottom: 10px;
+            height: 25PX;
+            padding: 10PX 10PX;
+            font-size: 10PX;
+
+        }
+
+        form{
+            padding: 0px 20px;
+
+        }
+        label{
+            display: block;
+            margin: 10px 0px;
+        }
+        button{
+            background-color: #834f78;
+            color: white;
+          min-width: 30%;
+          max-width: 30%;
+          height: 30px;
+          margin-bottom: 20px;
+        }
+        .gender > input{
+        margin: 10px;
+
+        }
+        legend img{
+            border-radius: 75px;
+            border: 2px solid #000000;
+            width: 135px;
+            min-width: 70px;
+            background: #ffffff;
+        }
+legend{
+    margin: 0px auto;
+padding: 10px 0px 0px;
+}
+    </style>
+</head>
+<body>
+    <div class="form">
+        
+            <fieldset>
+                <legend><img src="./avatar.png"width="60px" alt=""></legend>
+          
+            <form action="">
+                <div class="textfields">
+                    <label for="name">
+                        NAME:
+                    </label>
+                    <input type="text" id="name" placeholder="ENTER YOU NAME">
+                    <label for="email">
+                        EMAIL:
+                    </label>
+                    <input type="email" id="email" placeholder="ENTER YOU EMAIL">
+                    <label for="password">
+                        PASSWORD:
+                    </label>
+                    <input type="password" id="password" placeholder="ENTER YOU PASSWORD">
+                    <label for="phonenumber">
+                        PHONE NUMBER:
+                    </label>
+                    <input type="number" id="phonenumber" placeholder="ENTER YOU NUMBER">
+                </div>
+               
+                <div class="gender">
+                    <label for="gender">
+                        GENDER:
+                    </label>
+                    <input type="radio" name="gender" id="male">Male
+                    <input type="radio" name="gender" id="female">Female
+                    <input type="radio" name="gender" id="other">Other
+                </div>
+                <button>SIGN UP</button>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>

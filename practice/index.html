@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #000000;
+            background-image: url("./assets/img-2/body/body_bg.png");
+        }
+
+        /* Float four topcolumns side by side */
+        .topcolumn {
+            float: left;
+            width: 32%;
+            padding: 10px 10px;
+            /* margin: 31px; */
+        }
+
+        .topcolumn1 {
+            float: left;
+            width: 63%;
+            /* height: 327px; */
+            padding: 10px 10px;
+        }
+
+        .toptopcolumn2 {
+            float: left;
+            width: 33%;
+            /* height: 327px; */
+            padding: 10px 10px;
+            height: 150px;
+        }
+
+        .topcolumn3 {
+            float: left;
+            width: 33%;
+            /* height: 327px; */
+            padding: 10px 10px;
+        }
+
+
+        /* Remove extra left and right margins, due to padding */
+        .toppromos {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            background: #ffffff;
+            background-image: url("assets/img-2/body/container_bg.png");
+            font-family: Flexo-Medium, arial, sans-serif;
+            /* margin: 0 -5px; */
+        }
+
+        .toprow {
+            background: #ffffff;
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            padding-top: 50px;
+            /* margin: 0 -5px; */
+        }
+        .toprow2{
+            background: #ffffff;
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            padding-bottom: 50px;
+
+        }
+
+        /* Clear floats after the topcolumns */
+        .toprow,.toprow2:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive topcolumns */
+        @media screen and (max-width: 960px) {
+
+            .topcolumn,
+            .topcolumn1,
+            .toptopcolumn2,
+            .topcolumn3,
+            .topcolumn4,
+            .topcolumn5,
+            .topcolumn6 {
+                width: 100%;
+                display: block;
+                margin-bottom: 30px;
+            }
+
+
+            .toprow, .toprow2 {
+                width: 80%;
+            }
+
+        }
+
+        @media screen and (min-width: 960px) {
+
+            .topcard {
+                /* height: 345px; */
+            }
+        }
+
+        /* Style the counter cards */
+        .topcard {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            background-color: #f1f1f1;
+
+        }
+
+        .toppromo-card-content {
+            padding: 16px;
+
+        }
+
+        .toppromo-card2 .toppromo-card-content {
+            width: 60%;
+            float: right;
+            background: #ee6b2f;
+            height: 130px;
+        }
+
+        .topcard h2 {
+            font-size: 20px;
+            color: #212121;
+        }
+
+        .toppromo-card1 p {
+            font-size: 15px;
+            color: #616161;
+            padding-top: 10px;
+        }
+
+        .topcard img {
+            width: 100%;
+
+        }
+
+        .toppromo-card2 img {
+            width: 40%;
+            height: 130px;
+            float: left;
+        }
+
+        .toppromo-card1 {
+            border-radius: 5px;
+            background: #1b53ba;
+        }
+
+        .toppromo-card1:hover {
+            background: #1847D7;
+
+        }
+
+        .toppromo-card2 {
+            border-radius: 5px;
+            background: #ee6b2f;
+        }
+
+        .toppromo-card2 .toppromo-card-content:hover {
+          
+            background: #DA471B;
+            
+        }
+
+        .toppromo-card3 {
+            border-radius: 5px;
+          
+            background: #E6BC2F;
+            height: 255px;
+        }
+
+        .toppromo-card3:hover {
+            background: #DAA31C;
+        }
+
+        .toppromo-card4 {
+            border-radius: 5px;
+            background: #313131;
+            height: 254px;
+        
+        }
+
+        .toppromo-card4:hover {
+            background: #282828;
+        }
+
+        .toppromo-card5 {
+            border-radius: 5px;
+            background: #855ac9;
+            height: 254px;
+        }
+
+        .toppromo-card5:hover {
+            background: #734BB2;
+        }
+
+        .toppromo-card6 {
+            border-radius: 5px;
+            background: #ff5145;
+            height: 254px;
+
+        }
+
+        .toppromo-card6:hover {
+            background: #FF1F1C;
+        }
+
+        .toppromo-card1 h3,.toppromo-card2 h3,
+        .toppromo-card3 h3,
+        .toppromo-card4 h3,
+        .toppromo-card5 h3,
+        .toppromo-card6 h3 {
+            color: #ffffff;
+        }
+
+        .toppromo-card1 p {
+            color: #30a7d7;
+        }
+
+    </style>
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="toppromos">
+        <div class="toprow">
+            <div class="topcolumn1">
+                <div class="topcard toppromo-card1">
+                    <img src="./assets/img-1/trading-card/swsh09-build-battle-box-169-en.jpg" width="100px" alt="">
+                    <div class="toppromo-card-content">
+                        <h3>Soar to the Stars Early with This Prerelease Set</h3>
+                        <p>The Pokémon TCG: <em>Sword &amp; Shield—Brilliant Stars</em> Build &amp; Battle Box lets
+                            you
+                            play ahead of the expansion’s release.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="toptopcolumn2">
+                <div class="topcol2-color">
+
+                    <div class="topcard toppromo-card2">
+
+                        <img src="./assets/img-1/video-games/pokemon-unite-169.jpg" width="100px" alt="">
+                        <div class="toppromo-card-content">
+                            <h3 class="">Aegislash Available in Pokémon UNITE</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="topcolumn3">
+                <div class="topcard toppromo-card3">
+                    <img src="./assets/img-1/trading-card/ash-and-team-rocket-169-en.jpg" width="100px" alt="">
+                    <div class="toppromo-card-content">
+                        <h3 class="">See More<em>New Brilliant Stars</em>Cards</h3>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="toprow2">
+            
+            <div class="topcolumn">
+                <div class="topcard toppromo-card4">
+                    <img src="./assets/img-1/trading-card/ash-and-team-rocket-169-en.jpg" width="100px" alt="">
+                    <div class="toppromo-card-content">
+                        <h3 class="">Prepare for Trouble with Frenemies Forever on Pokémon TV</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="topcolumn">
+                <div class="topcard toppromo-card5">
+                    <img src="./assets/img-1/attend-events/pokemon-unite-championship-series-169.jpg" width="100px" alt="">
+                    <div class="toppromo-card-content">
+                        <h3 class="">Battle in the Pokémon UNITE Championship Series!</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="topcolumn">
+                <div class="topcard toppromo-card6">
+                    <img src="./assets/img-1/trading-card/sword-shield-169-en.jpg" width="100px" alt="">
+                    <div class="toppromo-card-content">
+                        <h3 class="">Milcery Brings Sweet Rewards to Max Raid Battles</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
