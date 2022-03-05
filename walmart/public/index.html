@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Walmart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- /////////////////// -->
+  <section class="My-header">
+    <header>
+      <div class="My-logo">
+        <img src="./assets/logo.png" alt="">
+      </div>
+      <div class="My-navlinks My-navlinks-left">
+        <ul>
+          <li><i class="fas fa-th-large"></i>Departments</li>
+          <li><i class="fas fa-th-large"></i>Services</li>
+        </ul>
+      </div>
+      <div class="My-input-field">
+        <input type="text" placeholder="Search everything at Walmart online and in store"><i class="far fa-search"></i>
+      </div>
+      <div class="My-navlinks My-navlinks-right">
+        <ul>
+          <li>
+            <div><i class="far fa-arrow-alt-from-top"></i></div><span>Recoder</span><br>My Items
+          </li>
+          <li>
+            <div><i class="far fa-lock"></i></div><span>Sign in</span><br>Account
+          </li>
+          <li>
+            <i class="far fa-shopping-cart"></i>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="My-otherlinks">
+      <span> <i class="fal fa-home"></i>
+        Sacramento Supercenter
+        |
+      </span>
+      <span> <i class="fal fa-map-marker-alt"></i>
+        Sacramento, 95829</span>
+    </div>
+  </section>
+  <!-- ////////////////// -->
+  <section class="My-imagecarousel">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/imagecarousel1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block img1-content">
+            <h2>Live beatuifully</h2>
+            <p>The season's hottest must-haves are here.</p>
+            <span class="btn btn-outline-dark">Shop Fashion</span>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./assets/imagecarousel2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block img2-content">
+            <h2>New year, nutritious picks</h2>
+            <p>Find meal solutions for every lifestyle with these tasty options.</p>
+            <span class="btn btn-outline-dark">Shop Now</span>
+          </div>
+        </div>
+        
+        <div class="carousel-item">
+          <img src="./assets/imagecarousel3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block img3-content">
+            <h2>Home essentials</h2>
+            <p>Create your sanctuary with calming & a minimalist design.</p>
+            <span class="btn btn-outline-dark">Shop Now</span>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/imagecarousel4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block img4-content">
+            <p>Black History Month</p>
+            <h2>Celebrating you doing you</h2>
+            <p>For who you are & who you want to be, we are here.</p>
+            <span class="btn btn-outline-dark">Learn More</span>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/imagecarousel5.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block img5-content">
+            <p>Happening now for W+ members</p>
+            <h2>Exclusive Access Events*</h2>
+            <p>Become a Walmart+ paid members & sccoe up to 40% OFF top picks!.</p>
+            <span class="btn btn-outline-dark">Join Walmart+</span>
+
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- /////////////////////////////////// -->
+  <section class="top4containers">
+    <div class="col1">
+      <div class="con1">
+        <h6>Pickup and delivery</h6>
+        <button class="btn btn-outline-dark">See times</button>
+      </div>
+      <div class="con2">
+        <h6>Popular Services</h6>
+        <p><a href="">view all</a></p><br>
+        <div>
+          <p><i class="far fa-clinic-medical"></i><br>Pharmacy</p>
+          <p><i class="far fa-car"></i><br>Auto Care Center</p>
+          <p> <i class="fal fa-birthday-cake"></i><br>Custom Cakes</p>
+        </div>
+      </div>
+    </div>
+    <div class="col2">
+      <h6>Popular kitchens under $100</h6>
+      <div>
+        <p><img src="./assets/kitchen-1.jpeg" alt=""></p>
+        <p><img src="./assets/kitchen-2.jpeg" alt=""></p>
+        <p><img src="./assets/kitchen-3.jpeg" alt=""></p>
+        <p><img src="./assets/kitchen-4.jpeg" alt=""></p>
+      </div>
+    </div>
+    <div class="col3">
+      <h6>Stretch your tax refund</h6>
+      <div>
+        <p> <img src="./assets/con-3-img1.jpg" alt=""><br>Shop all</p>
+        <p><img src="./assets/con-3-img2.jpg" alt=""><br>Up to $180 off tech</p>
+        <p><img src="./assets/con-3-img3.jpg" alt=""><br>Up to 30% off floor care</p>
+        <p><img src="./assets/con-3-img4.jpg" alt=""><br>Walmart+ exclusive access</p>
+      </div>
+    </div>
+  </section>
+  <!-- /////////////////////////////////////////// -->
+  <section class="advertizment">
+    <img src="./assets/walmart.png" width="90px" alt="">
+    <h5>W+ exclusive access event is now live! Members save up to 40% on hot items</h5>
+    <button class="btn btn-primary">Browse Items</button>
+    <p><a href="">Join Walmart+</a></p>
+
+  </section>
+
+  <!--  cards  -->
+  <section class="product-cards">
+    <div class="row row-cols-1 row-cols-md-6 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/product1.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$3.36 <span>$3.36/lb</span></h5>
+            <p class="card-text">
+              Great Value Whole Vitamin D Milk, Gallon, 128 fl oz.</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"> 1662</i>
+            <button>Pickup</button>
+            <button>Delivery</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/product2.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$4.14 <span>13.8 c/fl oz</h5>
+            <p class="card-text">Best Foods Mayonnaise Real Mayo Gluten-Free Sandwich Spread, Rich in Omega-3 ALA 30 oz
+            </p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"> 387</i>
+            <button>Pickup</button>
+            <button>Delivery</button>
+            <button>1-day shipping</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/product3.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$8.92 <span>$1.49/ea</h5>
+            <p class="card-text">Great Value Ultra Strong Paper Towels, Split Sheets, 6 Double Rolls.</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"> 3868</i>
+            <button>Pickup</button>
+            <button>Delivery</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/product4.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$0.50 <span>50.9 c/lb</h5>
+            <p class="card-text">Fresh Cucumber, Each</p>
+            <button>Pickup</button>
+            <button>Delivery</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/product5.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$0.84 <span>4.2 c/oz</h5>
+            <p class="card-text">Great Value White Bread Loaf, 20 ox, 24 Count.</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"> 407</i>
+            <button>Pickup</button>
+            <button>Delivery</button>
+            <button>1-day shipping</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/product6.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$14.88 <span>82.7 c/ea</h5>
+            <p class="card-text">Angel Soft Toilet Paper 18 Mega Rolls.</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt">7871</i>
+            <button>Pickup</button>
+            <button>Delivery</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  favorite departments -->
+  <section class="dep-cards">
+    <div class="info">
+      <h5>Your favorite departments</h5>
+      <p><a href="">view all</a></p>
+    </div>
+    <div class="dep-items">
+      <div>
+        <img src="./assets/grocery.png" width="120px" alt="">
+        <h5>Grocery</h5>
+      </div>
+      <div>
+        <img src="./assets/electronics.png" width="120px" alt="">
+        <h5>Electronics</h5>
+      </div>
+      <div>
+        <img src="./assets/clothings.png" width="120px" alt="">
+        <h5>Clothings</h5>
+      </div>
+      <div>
+        <img src="./assets/home.png" width="120px" alt="">
+        <h5>Home</h5>
+      </div>
+      <div>
+        <img src="./assets/toys.png" width="120px" alt="">
+        <h5>Toys</h5>
+      </div>
+      <div>
+        <img src="./assets/video-games.png" width="120px" alt="">
+        <h5>Video Games</h5>
+      </div>
+    </div>
+  </section>
+
+  <!-- Refresh your space -->
+  <section class="space-cards">
+    <div class="info">
+      <h5>Refresh your space</h5>
+    </div>
+    <div class="space-items">
+      <div>
+        <img src="./assets/furniture.jpg" width="" alt="">
+        <p>Patio furniture & decor</p>
+      </div>
+      <div>
+        <img src="./assets/decore.jpg" width="" alt="">
+        <p>Indoor decor</p>
+      </div>
+      <div>
+        <img src="./assets/garden.jpg" width="" alt="">
+        <p>Lawn & garden essentials</p>
+      </div>
+      <div>
+        <img src="./assets/cleaning.jpg" width="" alt="">
+        <p>Cleaning must-haves</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!--New season, new styles -->
+  <section class="season-cards">
+    <div class="info">
+      <h5>New season, new styles</h5>
+    </div>
+    <div class="season-items">
+      <div>
+        <img src="./assets/spring-fashion.jpg" width="" alt="">
+        <p>Spring fashion</p>
+      </div>
+      <div>
+        <img src="./assets/wow-now.jpg" width="" alt="">
+        <p>Wow & Now</p>
+      </div>
+      <div>
+        <img src="./assets/swim.jpg" width="" alt="">
+        <p>Swim</p>
+      </div>
+      <div>
+        <img src="./assets/beauty.jpg" width="" alt="">
+        <p>Spring beauty</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- cash back -->
+  <section class="cash-back">
+    <img src="./assets/card.png" width="90px" alt="">
+    <p><span>
+        Earn 5% cash back</span>on Walmart.com.
+      <a href="">Learn how</a>
+    </p>
+  </section>
+
+  <!--  cards  -->
+  <section class="product-cards">
+    <div class="row row-cols-1 row-cols-md-6 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/product7.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$114.00</h5>
+            <p class="card-text">
+              Lifetime 55Qt High Performance</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"> 1178</i>
+            <button>Pickup</button>
+            <button>Delivery</button>
+            <button>1-day shipping</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/product8.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$18.78 <span><del>$25.84</del></span></h5>
+            <p class="card-text">Everystar 20 Foot 4 Gauge, Automotive... </p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"> 19</i>
+            <button>Pickup</button>
+            <button>Delivery</button>
+            <button>1-day shipping</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/product9.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$197.00</h5>
+            <p class="card-text">Coway Airmega 200M True HEPA Air...</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"> 279</i>
+            <button>Pickup</button>
+            <button>Delivery</button>
+            <button>1-day shipping</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/product10.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">From $49.99</h5>
+            <p class="card-text">Big Joe Milano Bean Bag Chair, Black</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"> 2373</i>
+            <button>1-day shipping</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/product11.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$59.82</h5>
+            <p class="card-text">Mainstays Sumpter Park Cube Storage Desk, Black</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"> 590</i>
+            <button>2-day shipping</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/product12.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$148.00 <span><del>$299.00</del></span></h5>
+            <p class="card-text">Bold Flame 38 inch Electric Fireplace in White</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt">322</i>
+            <button>2-day shipping</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- for you cards -->
+  <section class="foryou-cards">
+    <h3>For you</h3>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="./assets/foryou1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Prep for sneeze season</h5>
+          <p class="card-text">Keep your allergies at bay with relief from trusted brands.</p>
+          <span class="btn btn-outline-dark">Shop Now</span>
+
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./assets/foryou2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Lucky you! </h5>
+          <p class="card-text">Score charming St. Patrick’s Day picks & fun treats for less.</p>
+          <span class="btn btn-outline-dark">Shop Now</span>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./assets/foryou3.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Quick and easy meals</h5>
+          <p class="card-text">Grab pre-made ingredients with bold flavors for a tasty dinner.</p>
+          <span class="btn btn-outline-dark">Shop Now</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--In season -->
+  <section class="in-season-cards">
+    <h3>In season</h3>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="./assets/in-season1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Quick & healthy dinners</h5>
+          <p class="card-text">Whip up easy, affordable weeknight meals in under thirty minutes.</p>
+          <span class="btn btn-outline-dark">Shop Now</span>
+
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./assets/in-season2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">The Pioneer Woman</h5>
+          <p class="card-text">Top-rated home picks for your space.</p>
+          <span class="btn btn-outline-dark">Shop Now</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  cards  -->
+  <section class="product-cards">
+    <div>
+      <h3>Bestselling in home furniture</h3>
+    </div>
+    <div class="row row-cols-1 row-cols-md-6 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/furniture1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$114.00</h5>
+            <p class="card-text">
+              Lifetime 55Qt High Performance</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"> 1178</i>
+            <button>3+day shipping</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/furniture2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$18.78 <span><del>$25.84</del></span></h5>
+            <p class="card-text">Everystar 20 Foot 4 Gauge, Automotive... </p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"> 19</i>
+
+            <button>3+day shipping</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/furniture3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$197.00</h5>
+            <p class="card-text">Coway Airmega 200M True HEPA Air...</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"> 279</i>
+            <button>1-day shipping</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/furniture4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">From $49.99</h5>
+            <p class="card-text">Big Joe Milano Bean Bag Chair, Black</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"> 2373</i>
+            <button>3+day shipping</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/furniture5.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$59.82</h5>
+            <p class="card-text">Mainstays Sumpter Park Cube Storage Desk, Black</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"> 590</i>
+            <button>3+day shipping</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/furniture6.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$148.00 <span><del>$299.00</del></span></h5>
+            <p class="card-text">Bold Flame 38 inch Electric Fireplace in White</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt">322</i>
+            <button>Pickup</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Brand new for you -->
+  <section class="in-season-cards">
+    <h3>Brand new for you</h3>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="./assets/brand-foryou1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">New from Celebrity Pink</h5>
+          <p class="card-text">Be your own star in on-trend spring denim. </p>
+          <span class="btn btn-outline-dark">Shop Now</span>
+
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./assets/brand-foryou2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">My Texas House</h5>
+          <p class="card-text">Modern farmhouse bath essentials & more by Erin Vogelpohl.</p>
+          <span class="btn btn-outline-dark">Shop Now</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  cards  -->
+  <section class="product-cards">
+    <div>
+      <h3>Bestselling in home decor</h3>
+    </div>
+    <div class="row row-cols-1 row-cols-md-6 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/home-decore1.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$114.00</h5>
+            <p class="card-text">
+              Lifetime 55Qt High Performance</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"> 1178</i>
+            <button>Pickup</button>
+            <button>Delivery</button>
+            <button>3+day shipping</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/home-decore2.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$18.78 <span><del>$25.84</del></span></h5>
+            <p class="card-text">Everystar 20 Foot 4 Gauge, Automotive... </p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"> 19</i>
+            <button>3+day shipping</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/home-decore3.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$197.00</h5>
+            <p class="card-text">Coway Airmega 200M True HEPA Air...</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"> 279</i>
+            <button>Pickup</button>
+            <button>Delivery</button>
+            <button>3+day shipping</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/home-decore4.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">From $49.99</h5>
+            <p class="card-text">Big Joe Milano Bean Bag Chair, Black</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"> 2373</i>
+            <button>3+day shipping</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/home-decore5.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$59.82</h5>
+            <p class="card-text">Mainstays Sumpter Park Cube Storage Desk, Black</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"> 590</i>
+            <button>Pickup</button>
+            <button>Delivery</button>
+            <button>3+day shipping</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/home-decore6.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">$148.00 <span><del>$299.00</del></span></h5>
+            <p class="card-text">Bold Flame 38 inch Electric Fireplace in White</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt">322</i>
+            <button>3+day shipping</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COVID-19 info & updates -->
+  <section class="foryou-cards">
+    <h3>COVID-19 info & updates</h3>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="./assets/covid1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">At-home COVID-19 tests</h5>
+          <p class="card-text">KNow available at Walmart.</p>
+          <span class="btn btn-outline-dark">Shop Now</span>
+
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./assets/covid2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">COVID vaccine & booster</h5>
+          <p class="card-text">Now available for eligible patients.</p>
+          <span class="btn btn-outline-dark">Shop Now</span>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./assets/covid3.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">COVID-19 vaccine record</h5>
+          <p class="card-text">Vaccinated at a Walmart pharmacy? Access your digital card.</p>
+          <span class="btn btn-outline-dark">Shop Now</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Sharing our values -->
+  <section class="in-season-cards">
+    <h3>Sharing our values</h3>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="./assets/values1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Black & unlimited</h5>
+          <p class="card-text">Celebrating who you are & all you want to be. </p>
+          <span class="btn btn-outline-dark">Learn More</span>
+
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./assets/values2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Built for Better</h5>
+          <p class="card-text">Products designed to help meet your needs & live by your values.</p>
+          <span class="btn btn-outline-dark">Learn More</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- feedback -->
+  <section class="feedback">
+    <div>
+      <p>We’d love to hear what you think!</p>
+    </div>
+    <div><span class="btn btn-outline-dark">Give feedback</span></div>
+  </section>
+
+  <!-- footer -->
+  <section class="footer">
+    <div>
+      <ul>
+        <li>All Departments</li>
+        <li>Store Directory</li>
+        <li>Careers</li>
+        <li>Our Company</li>
+        <li>Sell on Walmart.com</li>
+        <li>Help</li>
+        <li>COVID-19 Vaccine Scheduler</li>
+        <li>Product Recalls</li>
+        <li>Accessibility</li>
+        <li>Tax Exempt Program</li>
+        <li>Get the Walmart App</li>
+        <li>Sign-up for Email</li>
+        <li>Terms of Use</li>
+        <li>Privacy & Security</li>
+        <li>CA Privacy Rights</li>
+        <li>California Supply Chain Act</li>
+        <li>Do Not Sell My Personal Information</li>
+        <li>Request My Personal Information</li>
+      </ul>
+    </div>
+    <div><p>© 2022 Walmart. All Rights Reserved.</p></div>
+  </section>
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+  integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+</html>

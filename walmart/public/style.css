@@ -1,0 +1,414 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.My-header {
+    width: 100%!important;
+    display: flex!important;
+    justify-content: center!important;
+    background: #0071DC!important;
+    color: #ffffff!important;
+    flex-wrap: wrap!important;
+    height: 85px!important;
+}
+
+header {
+    width: 96%!important;
+    display: flex!important;
+    justify-content: center!important;
+    /* flex-wrap: wrap; */
+    align-items: center!important;
+    height: 85px!important;
+
+}
+
+.My-navlinks ul {
+    list-style: none!important;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: space-between!important;
+}
+
+.My-navlinks ul li {
+    list-style: none!important;
+    margin: 5px!important;
+    border-radius: 25px!important;
+    padding: 5px 10px!important;
+    display: flex!important;
+    align-items: center!important;
+}
+
+.My-navlinks ul li i {
+    margin: 8px!important;
+}
+
+.My-navlinks ul li:hover {
+    background: #004F9A!important;
+    cursor: pointer!important;
+}
+
+.My-input-field {
+    border-radius: 25px!important;
+    padding: 5px 10px!important;
+    background: #ffffff!important;
+    height: 40px!important;
+    display: flex!important;
+    width: 40%!important;
+    min-width: 10%!important;
+}
+
+.My-input-field input {
+    width: 100%!important;
+    border: none!important;
+}
+
+.My-input-field input:focus {
+    border: none!important;
+}
+
+.My-input-field i {
+    color: black!important;
+    border-radius: 50%!important;
+    background: #FFC220!important;
+    padding: 8px!important;
+}
+
+.My-navlinks-right span {
+    display: contents!important;
+    font-size: 12px !important;
+}
+
+.My-otherlinks {
+    background-color: #004F9A!important;
+    width: 100%!important;
+    padding: 14px 17px!important;
+}
+/*  */
+.My-imagecarousel{
+    width: 90%;
+    margin: 80px auto;
+}
+.img1-content{
+    top: 100px;
+    color: #000000;
+}
+.img2-content,.img3-content,.img4-content,.img5-content{
+    left: 18px;
+    top: 0px;
+    color: #000000;
+    text-align: left;
+    width: 30%;
+}
+.img4-content{
+    color: #ffffff;
+}
+.img5-content{
+    color:#0071DC;
+}
+.My-imagecarousel span,.foryou-cards span,.in-season-cards span,.feedback span{
+    border-radius: 25px!important;
+    background: #ffffff;
+    font-weight: bold;
+}
+/*  */
+.top4containers{
+    width: 90%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.col1,.col2,.col3{
+    width: 32%;
+    
+}
+.con1{
+    display: flex;
+    justify-content: space-between;
+    background: #E6F1FC;
+    height: 128px;
+    padding: 20px;
+    box-shadow: 0 1px 2px 1px #00000026;
+}
+.con2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 1px 2px 1px #00000026;
+}
+.con2 div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    text-align: center;
+}
+.con2 div i{
+    font-size: 40px;
+    background: #E6F1FC;
+    border-radius: 50%;
+    padding: 15px;
+    color: #2D86E1;
+}
+.con2 div p{
+    width: 30%;
+    font-size: 14px;
+}
+
+.top4containers button{
+    border-radius: 25px!important;
+    width: 90px;
+    font-size: 14px;
+    background: #ffffff;
+    font-weight: bold;
+    height: 34px;
+    padding: 4px;
+}
+
+.col2,.col3{
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 1px 2px 1px #00000026;
+}
+.col2 div,.col3 div{
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col2 div p,.col3 div p{
+    margin: 0px 10px;    
+    width: 40%;
+}
+
+/*  */
+.advertizment{
+    width: 90%;
+    margin: 80px auto;
+    display: flex;
+    box-shadow: 0 1px 2px 1px #00000026;
+    justify-content: space-between;
+    background-image: url(./assets/background1.svg),url(./assets/background2.svg);
+    background-repeat: no-repeat;
+    background-position: top right,bottom -5px left -2px;
+    padding: 20px;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+.advertizment h5{
+    width: 50%;
+    color: #0071DC;
+    font-weight: bold;
+    font-size: 20px;
+}
+.advertizment button{
+    border-radius: 25px!important;
+    width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    height: 34px;
+    padding: 4px;
+    min-width: 110px;
+}
+.advertizment p{
+    margin-top: 15px;
+}
+.product-cards{
+    width: 90%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product-cards span{
+    font-size: 14px;
+    color: gray;
+    font-family: "Bogle";
+}
+.col{
+    padding: 2px!important;
+}
+.card{
+    border: none!important;
+}
+.col i{
+    font-size: 10px;
+}
+.col p{
+    font-size: 14px!important;
+}
+.col button{
+    background: #E6F1FC;
+    color: blue;
+    font-size: 12px;
+    border: none;
+  }
+  /*  */
+.dep-cards,.space-cards,.season-cards,.foryou-cards,.in-season-cards{
+    width: 90%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+}
+.dep-items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.dep-items div{
+    width: 15%;
+    position: relative;
+    box-shadow: 0 1px 2px 1px #00000026;
+}
+.dep-items img,.space-items img,.season-items img{
+    width: 100%;
+}
+.dep-items h5{
+    position: relative;
+    bottom: 100px;
+    color: #004f9a;
+    left: 20%;
+}
+/*  */
+.space-items,.season-items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.space-items div,.season-items div{
+    width: 25%;
+    position: relative;
+    text-align: center;
+}
+/* */
+.cash-back{
+    width: 90%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 1px 2px 1px #00000026;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.cash-back p{
+    margin: 0px;
+}
+.cash-back span{
+    color: #000000;
+    font-weight: bold;
+    border-bottom: 3px solid #0071dc;
+    margin: 0px 15px;
+}
+/*  */
+.foryou-cards .card,.in-season-cards .card{
+    box-shadow: 0 1px 2px 1px #00000026 !important;
+
+}
+/*  */
+.feedback{
+    background: #E6F1FC;
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    
+}
+/*  */
+.footer{
+    background: #004F9A;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+
+}
+.footer ul{
+    list-style: none;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 10px;
+}
+.footer ul li{
+    margin: 10px;
+    font-size: 12px;
+}
+
+
+@media only screen and (max-width:900px){
+header{
+    flex-wrap: wrap !important;
+}
+
+    .carousel-caption h2{
+        font-size: 26px !important;
+    }
+.carousel-caption p{
+    font-size: 16px !important;
+}
+    .carousel-caption{
+        left: 3% !important;
+    }
+
+.top4containers{
+    flex-wrap: wrap;
+}
+.top4containers .col1,.col2,.col3{
+    width: 100%;
+    margin: 10px;
+}
+
+    .advertizment{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .advertizment h5{
+        width: 100%;
+    }
+    .advertizment button{
+        margin: 0px 10px;
+    }
+}
+@media only screen and (max-width:850px){
+    header{
+        flex-wrap: nowrap !important;
+    }
+    .My-navlinks-right{
+        display: none !important;
+    }
+}  
+@media only screen and (max-width:650px){
+    header{
+        justify-content: space-around !important;
+    }
+    .My-navlinks-right, .My-navlinks-left{
+        display: none !important;
+    }
+    .My-otherlinks{
+        font-size: 13px;
+    }
+}    

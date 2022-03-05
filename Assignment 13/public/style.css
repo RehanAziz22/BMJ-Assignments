@@ -1,0 +1,301 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.header{
+    background: #F7F8F8 !important;
+    padding: 10px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.head-top img{
+    background: transparent;
+}
+.head-top a{
+    font-size: 14px;
+    padding: 10px;
+    color:#222222;
+    font-weight: bold;
+}
+.head-top i{
+    font-size: 16px;
+    margin: 10px;
+}
+.head-top a:hover{
+    color: #6896FD;
+    text-decoration: none;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    top: 17%;
+    left: 45%;
+    z-index: 1000;
+    box-shadow: 0 2px 12px rgb(0 0 0 / 30%) !important;
+    outline: none;
+    background-color: white;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.head-bottom{
+    padding: 10px ;
+    margin: 0px auto;
+}
+.search-location{
+    width: 25% !important;
+
+}
+.search-location button{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ced4da;
+    background: #ffffff;
+    height: 40px;
+    border-radius: 5px !important;
+    width: 100%;
+}
+.search-location input{
+    border: none;
+}
+.search-location input:focus{
+    outline: none !important;
+    box-shadow: none;}
+.search-location .dropdown-menu i{
+    font-size: 20px;
+    margin: 0px 10px;
+    
+}
+.search-location .my-dropdown a{
+    padding: 15px 10px !important;
+}
+.my-dropdown.show{
+    width: 280px !important;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+    height: 320px !important;
+}
+.mysearch{
+    width: 50% !important;
+}
+
+.sell-button,.login-button{
+    border: none;
+    background: transparent;
+    position: relative;
+}
+.login{
+    /* width: 12% !important; */
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+.login-button p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+    margin: 0px;
+}
+.sell-button span{
+    position: absolute;
+    top: 8px;
+    left: 17px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.sell{
+    display: flex;
+}
+.sell p{
+    /* background: #ffffff;
+    border: 10px solid transparent;
+    border-image: url(./Assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg) 30 round; */
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar{
+    width: 100% !important;
+    padding: 10px 60px !important;
+}
+.nav-ul-heading a{
+    font-weight: bold;
+}
+.row.show{
+display: flex !important;
+flex-wrap: wrap !important;
+width: 90% !important;
+margin: 0px 20px 0px 50px !important;
+height: 350px !important;
+overflow-y: scroll;
+overflow-x: hidden;
+
+}
+.row ul a:hover{
+    color: blue !important;
+}
+/*  */
+.MyBanner img{
+    width: 100%;
+}
+
+/*  */
+.start-selling{
+    color: #ffffff;
+    background: #3A77FF !important;
+    text-align: center;
+}
+.start-selling button{
+    background: transparent;
+    border: 2px solid #ffffff;
+    width: 90%;
+    height: 50px;
+    color: #ffffff;
+    font-weight: bold;
+}
+/*  */
+
+/*  */
+.my-Cards h1{
+font-size: 20px;
+}
+.my-card{
+    border-left: 5px solid #FFCE32 !important;
+}
+/* adds */
+.adds{
+    flex-wrap: wrap;
+}
+.adds div{
+    border: 1px solid #dfe1e5;
+    margin: 5px;
+}
+.adds div :hover{
+    box-shadow: 0 2px 12px rgb(0 0 0 / 70%) !important;
+}
+/*  */
+.mobile-app{
+    background: #F7F8F8;
+    width: 100%;
+    height: 200px;
+}
+.MyBanner2{
+    width: 33%;
+}
+.MyBanner2 img{
+    width: 100%;
+    height: 100%;
+}
+.olxapp-contant{
+    width: 35%;}
+.olx-download{
+    width: 32%;
+    border-left: 2px solid #C6D0D1;
+    margin: 48px 0px;
+}
+.olx-download img{
+    width: 100%;
+    min-width: 105px;
+}
+.myfooter{
+    background: #EBEEEF;
+}
+
+.myfooter ul{
+    font-size: 14px;
+    list-style: none;
+}
+.footer{
+    flex-wrap: wrap;
+}
+.footer-bottom{
+    background: #002F34;
+    color: #ffffff;
+}
+@media only screen and (max-width: 1400px){
+    .my-Cards{
+        max-width: 1300px !important;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .olxapp-contant{display: none;
+    }
+    .MyBanner2,.olx-download{
+        width: 50%;
+    }
+    .header,.navbar{
+        padding: 10px !important;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 994px){
+    #myBtn{
+        left: 43%;
+    }
+    .adds img{
+        width: 150px !important;
+    }
+    .olx-download img{
+        width: 120px;
+        min-width: 100px;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    #myBtn{
+        left: 40%;
+    }
+    .adds img{
+        width: 100px !important;
+    }
+    .head-bottom{
+        justify-content: space-between !important;
+        display: flex !important;
+        /* padding: 10px 12px !important; */
+    }
+    .search-location{
+        width: 60% !important;
+    }
+    .mysearch{
+        width: 38%!important;
+    }
+    .sell,.login{
+        display: none !important;
+    }
+   
+}
+@media only screen and (max-width: 730px){
+    .MyBanner img{
+        height: 200px;
+}
+    .olx-download img{
+        width: 120px;
+        min-width: 80px;
+    }
+
+}
+@media only screen and (max-width: 550px){
+    #myBtn{
+        left: 35%;
+    }
+    .row.show{
+        width: 99% !important;
+        margin: 2px !important;
+    }
+    .olx-download{
+        margin: 10px 0px;
+    }
+    .olx-download div{
+        flex-wrap: wrap;
+    }
+}
