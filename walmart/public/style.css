@@ -267,19 +267,24 @@ header {
     justify-content: space-between;
     position: relative;
 }
-.dep-items div{
-    width: 15%;
+.dep-items  div div{
+    /* width: 15%; */
     position: relative;
     box-shadow: 0 1px 2px 1px #00000026;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
 }
 .dep-items img,.space-items img,.season-items img{
     width: 100%;
 }
 .dep-items h5{
-    position: relative;
+    /* position: relative;
     bottom: 100px;
     color: #004f9a;
-    left: 20%;
+    left: 20%; */
+
 }
 /*  */
 .space-items,.season-items{
@@ -410,5 +415,9 @@ header{
     }
     .My-otherlinks{
         font-size: 13px;
+    }
+    .dep-items h5{
+        font-size: 14px;
+        text-align: center;
     }
 }    
