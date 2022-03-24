@@ -388,11 +388,10 @@
 //   document.write("Remarks: Sorry");
 // }
 
-
 // QUESTION 7
 // var secret = 4;
 // var guess = ~(prompt("Enter guessing no"));
-// a 
+// a
 // if (guess == secret){
 //     document.write("Bingo! Correct answer")
 // }
@@ -401,7 +400,90 @@
 // }
 
 // Question 8
-// var num = ~(prompt("Enter number"));
+// var num = prompt("Enter number");
 // if(num /3 == 1){
 //     document.write("yes the no is divisible by 3")
+// }
+
+// Question 9
+// var temp = prompt("Enter Temperature");
+// if (temp >= 40) {
+//   document.write("It is too hot outside.");
+// }
+//     if (temp >= 30) {
+//     document.write("The Weather today is Normal.");
+//     }
+//         if (temp >= 20) {
+//         document.write("Today’s Weather is cool.");
+//         }
+//             if (temp >= 10) {
+//             document.write("OMG! Today’s weather is so Cool..");
+//             }
+
+
+// Question 11
+// var firstNo = prompt("Enter First No");
+// var secondNo = prompt("Enter Second No");
+// var ope = prompt("Enter Operation  (+, -, *, /, %)");
+
+// if(ope == "+"){
+//     var opp = ~(firstNo) + ~(secondNo);
+//     document.write(opp);
+// }
+// if(ope == "-"){
+//     var opp = firstNo - secondNo;
+//     document.write(opp);
+// }
+// if(ope == "*"){
+//     var opp = firstNo * secondNo;
+//     document.write(opp);
+// }
+// if(ope == "/"){
+//     var opp = firstNo / secondNo;
+//     document.write(opp);
+// }
+
+//CHAPTER 12-13
+// //QUESTION 1
+// var A = 65, Z=90, a=97, z=122;
+// var userinput = prompt("Enter Character");
+
+// if 
+
+
+//QUESTION 2
+// var int1 = prompt("Enter number");;
+// var int2 = prompt("Enter number"); 
+
+// if(int1 >> int2){
+//     document.write(int1 + " is larger")
+// }
+// if(int1 == int2){
+//     document.write(" both equal")
+// }
+
+// else{
+//     document.write(int2 + " is larger")
+// }
+
+//QUESTION 3
+// var int1 = prompt("Enter number");;
+
+// if(int1 >= -1){
+//     document.write(int1 + " is Positive")
+// }
+// if(int1 <= 1){
+//     document.write(int1+" is negative")
+// }
+
+
+//QUESTION 4
+
+// var ope = prompt("Enter Character ");
+
+// if(ope == "a","e","i" , "o" , "u"){
+//     document.write(ope + " is a vowel");
+// }
+// else{
+//     document.write(ope + " is not a vowel");
 // }
