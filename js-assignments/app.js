@@ -380,7 +380,7 @@
 //   document.write("Grade: B<br>");
 //   document.write("Remarks: You need to improve");
 // }
-// else if (per <= 60) {
+// else {
 //   document.write("Total marks " + total + "<br>");
 //   document.write("Marks obtained " + obtotal + "<br>");
 //   document.write("Percentage " + per + "<br>");
@@ -395,7 +395,7 @@
 // if (guess == secret){
 //     document.write("Bingo! Correct answer")
 // }
-// if (guess+1 == secret){
+// else if (guess+1 == secret){
 //     document.write("Close enough to the correct answer")
 // }
 
@@ -410,13 +410,13 @@
 // if (temp >= 40) {
 //   document.write("It is too hot outside.");
 // }
-//     if (temp >= 30) {
+//     else if (temp >= 30) {
 //     document.write("The Weather today is Normal.");
 //     }
-//         if (temp >= 20) {
+//         else if (temp >= 20) {
 //         document.write("Today’s Weather is cool.");
 //         }
-//             if (temp >= 10) {
+//             else{
 //             document.write("OMG! Today’s weather is so Cool..");
 //             }
 
@@ -430,17 +430,20 @@
 //     var opp = ~(firstNo) + ~(secondNo);
 //     document.write(opp);
 // }
-// if(ope == "-"){
+// else if(ope == "-"){
 //     var opp = firstNo - secondNo;
 //     document.write(opp);
 // }
-// if(ope == "*"){
+// else if(ope == "*"){
 //     var opp = firstNo * secondNo;
 //     document.write(opp);
 // }
-// if(ope == "/"){
+// else if(ope == "/"){
 //     var opp = firstNo / secondNo;
 //     document.write(opp);
+// }
+// else {
+    // document.write("Please enter the correct operation")
 // }
 
 //CHAPTER 12-13
@@ -458,10 +461,9 @@
 // if(int1 >> int2){
 //     document.write(int1 + " is larger")
 // }
-// if(int1 == int2){
+// else if(int1 == int2){
 //     document.write(" both equal")
 // }
-
 // else{
 //     document.write(int2 + " is larger")
 // }
@@ -469,21 +471,65 @@
 //QUESTION 3
 // var int1 = prompt("Enter number");;
 
-// if(int1 >= -1){
-//     document.write(int1 + " is Positive")
+// if(int1 === 0){
+//     document.write(int1 + " is Zero")
 // }
-// if(int1 <= 1){
+// else if(int1 <= 1){
 //     document.write(int1+" is negative")
 // }
+// else{
+//     document.write(int1+" is positive")
+// }
+
 
 
 //QUESTION 4
 
 // var ope = prompt("Enter Character ");
 
-// if(ope == "a","e","i" , "o" , "u"){
+// if(ope == "a"|| ope == "e"|| ope == "i"|| ope == "o"|| ope == "u"){
 //     document.write(ope + " is a vowel");
 // }
 // else{
 //     document.write(ope + " is not a vowel");
+// }
+
+
+// // QUESTION 5
+// var password = "password";
+// var userinput = prompt("Enter password")
+// if(userinput == password){
+//     document.write("“Correct! The password you entered matches the original password")
+// }
+// else{
+//     document.write("Incorrect password <br>Please enter your password")
+// }
+
+// QUESTION 6
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day"
+// document.write(greeting );}
+// else{ 
+//     greeting = "Good evening"
+//     document.write(greeting );
+// }
+
+// QUESTION 7
+// var time = prompt("Enter time 24 hours format eg : 1900");
+// if(time>=0000 && time < 1200){
+//     document.write("Good Morining")
+// }
+// else if(time>=1200 && time < 1700){
+//     document.write("Good Afternoon")
+// }
+// else if(time>=1700 && time < 2100){
+//     document.write("Good Evening")
+// }
+// else if(time>=2100 && time < 2359){
+//     document.write("Good Night")
+// }
+// else{
+//     document.write("Enter correct time")
 // }
