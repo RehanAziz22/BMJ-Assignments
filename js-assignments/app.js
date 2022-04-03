@@ -420,7 +420,6 @@
 //             document.write("OMG! Today’s weather is so Cool..");
 //             }
 
-
 // Question 11
 // var firstNo = prompt("Enter First No");
 // var secondNo = prompt("Enter Second No");
@@ -443,7 +442,7 @@
 //     document.write(opp);
 // }
 // else {
-    // document.write("Please enter the correct operation")
+// document.write("Please enter the correct operation")
 // }
 
 //CHAPTER 12-13
@@ -451,12 +450,11 @@
 // var A = 65, Z=90, a=97, z=122;
 // var userinput = prompt("Enter Character");
 
-// if 
-
+// if
 
 //QUESTION 2
 // var int1 = prompt("Enter number");;
-// var int2 = prompt("Enter number"); 
+// var int2 = prompt("Enter number");
 
 // if(int1 >> int2){
 //     document.write(int1 + " is larger")
@@ -481,8 +479,6 @@
 //     document.write(int1+" is positive")
 // }
 
-
-
 //QUESTION 4
 
 // var ope = prompt("Enter Character ");
@@ -494,12 +490,11 @@
 //     document.write(ope + " is not a vowel");
 // }
 
-
 // // QUESTION 5
 // var password = "password";
 // var userinput = prompt("Enter password")
 // if(userinput == password){
-//     document.write("“Correct! The password you entered matches the original password")
+//     document.write("Correct! The password you entered matches the original password")
 // }
 // else{
 //     document.write("Incorrect password <br>Please enter your password")
@@ -511,7 +506,7 @@
 // if (hour < 18) {
 //     greeting = "Good day"
 // document.write(greeting );}
-// else{ 
+// else{
 //     greeting = "Good evening"
 //     document.write(greeting );
 // }
@@ -533,3 +528,236 @@
 // else{
 //     document.write("Enter correct time")
 // }
+
+// Assignment 13-15
+// Arrays
+
+// QUESTION 1
+// var stdName = []
+
+// QUESTION 2
+// var stdName = new Object();
+
+// QUESTION 3
+// var array1 = ["blue","green","yellow","red"];
+
+// QUESTION 4
+// var array1 = [1,2,3,4];
+
+// QUESTION 5
+// var array1 = [0,1];
+
+// QUESTION 6
+// var mixArray = ["green",0,2,"banana",3,4];
+
+// QUESTION 7
+// var edu = ["1) SSC <br>","2) HSC <br>", "3) BCS <br>","4) BS <br>", "5) BCOM <br>", "6) MS <br>", "7) M.Phil. <br>", "8) PhD <br>"];
+// document.write("<h2>Qualification</h2><br>")
+// document.write(edu)
+
+// QUESTION 8
+// var stdName = ["Michael","John","Tony"];
+// var stdScore = [320,230,480];
+// var total = 500;
+
+// var per = [stdScore[0]/total *100,stdScore[1]/total *100,stdScore[2]/total *100];
+// document.write("Score of "+ stdName[0]+" is "+ stdScore[0]+". Percentage: "+ per[0]+"%<br>" )
+// document.write("Score of "+ stdName[1]+" is "+ stdScore[1]+". Percentage: "+ per[1]+"%<br>" )
+// document.write("Score of "+ stdName[2]+" is "+ stdScore[2]+". Percentage: "+ per[2]+"%<br>" )
+
+// QUESTION 9
+// var color = ["red","blue","green","yellow","orange"];
+// // document.write(color);
+
+// // QUESTION 9a
+// var userinput = prompt("Enter color to add at the beginning");
+// color.unshift(userinput);
+// document.write(color);
+
+// // QUESTION 9b
+// var userinput = prompt("Enter color to add at the end");
+// color.push(userinput);
+// document.write(color);
+
+// // QUESTION 9c
+// color.unshift("black","pink");
+// document.write(color);
+
+// // QUESTION 9d
+// color.shift(color);
+// document.write(color);
+
+// // QUESTION 9e
+// color.pop(color);
+// document.write(color);
+
+// // QUESTION 9f
+// var index = ~prompt("Enter index value");
+// var usercolor = prompt("Enter color to add");
+// color.splice(index, 0, "yellow");
+// document.write(color);
+
+// // QUESTION 9g
+// var index = ~prompt("Enter index value");
+// var del = prompt("how many colors you want to delete");
+// color.splice(index, del);
+// document.write(color);
+
+// QUESTION 10
+// var stuScore = [320,230,480,120];
+// document.write("Score of Students "+stuScore+ "<br>");
+// stuScore.sort();
+// document.write("Ordered Score of Students "+stuScore);
+
+// QUESTION 11
+// var cities = ["Karachi","Lahore","Islamabad","Quetta","Peshawer"];
+// document.write("Cities List <br>"+ cities +"<br>");
+// var copycities = cities.slice(1,4);
+// document.write("Selected cities List <br>"+ copycities);
+
+// QUESTION 12
+// var arr = ["This", "is", "my", "cat"];
+// document.write(arr.join(" "))
+
+// // QUESTION 12
+// var arr = [];
+// arr[0] = prompt("Enter 1 array value");
+// arr[1] = prompt("Enter 2 array value")
+// arr[2] = prompt("Enter 3 array value")
+// arr[3] = prompt("Enter 4 array value")
+// document.write(arr+ "<br>")
+// document.write("Out <br>" + arr[0]+ "<br>")
+// document.write("Out <br>" + arr[1]+ "<br>")
+// document.write("Out <br>" + arr[2]+ "<br>")
+// document.write("Out <br>" + arr[3]+ "<br>")
+
+// QUESTION 12
+// var arr = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+// document.write("Out <br>" + arr[0]+ "<br>")
+
+// Assignment # 17-20
+// Arrays and loop
+
+// QUESTION 1
+// multi dimensional array
+// var mulArr = [[],[],[]]
+
+// QUESTION 2
+// multi dimensional array
+// var mulArr = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+// document.write(mulArr[0,1,2,3])
+
+// QUESTION 3
+// Numeric counting
+// for(var i=0; i<10; i++){
+//     document.write(i + "<br>")
+// }
+
+// QUESTION 4
+// multiplication table
+// var tableno = prompt("Enter no");
+// var length = prompt("Enter table length");
+// document.write("Multiplication table of "+ tableno +"<br>")
+// document.write("Table lenght "+ length +"<br>")
+// for(var i=1; i<length; i++){
+//     document.write(tableno + " x " + i +" = "+ tableno*i + "<br>")
+// }
+
+// // QUESTION 5
+// var fruits = ["apple", "banana", "mango", "orange",
+//     "strawberry"]
+//     document.write(fruits[0]+ "<br>")
+//     document.write(fruits[1]+ "<br>")
+//     document.write(fruits[2]+ "<br>")
+//     document.write(fruits[3]+ "<br>")
+//     document.write(fruits[4]+ "<br>")
+//     document.write( "<br>")
+//     for(var i=0; i<5; i++){
+//         document.write("Element at indexs "+i+" is "+fruits[i]+ "<br>")
+//     }
+
+// QUESTION 6
+// // counting
+// document.write("<b>Counting</b><br>");
+// for (var i = 0; i < 15; i++) {
+//   document.write(i + " ");
+// }
+// document.write("<br> ");
+
+// // Reverse counting
+// document.write("<b>Reverse Counting</b><br>");
+// for (var i = 10; i > 0; i--) {
+//   document.write(i + " ");
+// }
+// document.write("<br> ");
+
+// // Even
+// document.write("<b>Even</b><br>");
+// for (var i = 0; i < 20; i++) {
+//   if (i % 2 == 0) {
+//     document.write(i + " ");
+//   }
+// }
+// document.write("<br> ");
+
+// // ODD
+// document.write("<b>Odd</b><br>");
+// for (var i = 0; i < 20; i++) {
+//   if (i % 2 != 0) {
+//     document.write(i + " ");
+//   }
+// }
+// document.write("<br> ");
+
+// // Series
+// document.write("<b>Series</b><br>");
+// for (var i = 1; i < 20; i++) {
+//     if (i % 2 == 0) {
+//       document.write(i + "k ");
+//     }
+//   }
+
+// QUESTION 7
+// var array = ["cake", "apple pie", "cookie", "chips", "patties"]
+// var search = prompt("search dishes Gusses  "+" "+ array);
+
+// for (i=0; i==search;i++){
+//     if (array[i]==search) {
+//         var search=array[i];
+//         document.write(search+"found")
+//     }
+//     else{
+//         document.write(search + " not found ");
+          
+//       }
+// }
+
+
+//    QUESTION 8
+// var array = [24, 53, 78, 91, 12];
+// var largest= 0;
+
+// for (i=0; i<=largest;i++){
+//     if (array[i]>largest) {
+//         var largest=array[i];
+//     }
+// }
+// document.write(largest)
+
+
+//    QUESTION 9
+// var array = [24, 53, 78, 91, 12];
+// var smallest = arr[0];
+
+// 		for(var i=1; i<arr.length; i++){
+// 			if(arr[i] < smallest){
+// 				smallest = arr[i];   
+// 			}
+// 		}
+// document.write(smallest)
+
+//   QUESTION 10
+var num =5 ;
+for (i=1;i<100;i++){
+    document.write(num*i+"<br>")
+}
