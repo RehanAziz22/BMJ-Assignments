@@ -899,3 +899,63 @@
 // var count = (temp.match(/the/g)|| []).length + (temp.match(/The/g)|| []).length;
 // document.write("TEXT:" + temp +"<br>");
 // document.write("There are "+count+ " occurrence(s) of word 'the'");
+
+
+// ASSIGNMENT 17
+// QUESTION 1
+// var num = 3.45214
+// document.write("number:"+num+"<br>");
+// document.write("round off value:"+ Math.round(num)+"<br>") 
+// document.write("floor value:"+ Math.floor(num)+"<br>") 
+// document.write("ceil:"+ Math.ceil(num)+"<br>") 
+
+// QUESTION 2 
+// var num = -2.673
+// document.write("number:"+num+"<br>");
+// document.write("round off value:"+ Math.round(num)+"<br>") 
+// document.write("floor value:"+ Math.floor(num)+"<br>") 
+// document.write("ceil:"+ Math.ceil(num)+"<br>") 
+
+// QUESTION 3
+// var number = -4
+// if (number < 0){
+//            var n = (-1) * number;
+//         document.write("Absolute value of " + number + " is "+ n);
+// }
+
+// QUESTION 4 
+// var randomDice ;
+// randomDice = Math.ceil(Math.random() * 6);
+// document.write("Random dice value: " + randomDice)
+ 
+// QUESTION 5
+// var randomCoin ;
+// randomCoin = Math.ceil(Math.random() * 2);
+// if(randomCoin == 2){
+//     document.write(randomCoin+"<br> heads")
+// }
+// else{
+//     document.write(randomCoin+"<br> teals")
+
+// }
+
+// QUESTION 6
+// var randomNum ;
+// randomNum = Math.ceil(Math.random() * 100);
+// document.write("Random number between 1 and 100: " + randomNum)
+
+// QUESTION 7
+// var userinput = prompt("enter your weight in kilogram");
+//     document.write("The weight of the user is "+userinput+" kilograms ")
+
+
+
+// QUESTION 8
+// var num = 6 
+// var userinput = prompt("enter num between 1 to 10")
+// if(userinput == num){
+//     document.write("Congratulation")
+// }
+// else{
+//     document.write("Try again")
+// }
