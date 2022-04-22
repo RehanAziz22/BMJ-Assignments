@@ -756,8 +756,146 @@
 // 		}
 // document.write(smallest)
 
-//   QUESTION 10
-var num =5 ;
-for (i=1;i<100;i++){
-    document.write(num*i+"<br>")
-}
+// //   QUESTION 10
+// var num =5 ;
+// for (i=1;i<100;i++){
+//     document.write(num*i+"<br>")
+// }
+
+
+// Assignment # 21-23
+// Question 1
+// var first_name = prompt("Enter first name"); 
+// var last_name = prompt("Enter last name"); 
+// var fullName = first_name +" " +last_name;
+// alert("welcome"+ fullName);
+
+// QUESTION 2
+// var mobile = prompt("Enter your fovourite mobile phone"); 
+// var len = mobile.length;
+// document.write("my favourite phone is:"+ mobile+ "<br>"+
+// "length of string:"+ len);
+
+// QUESTION 3
+// var country = "pakistani";
+// var result = country.indexOf("n");
+// document.write("String:"+ country+ "<br>"+
+// "Index of 'n':"+ result);
+
+// QUESTION 4
+// var txt = "Hello World";
+// var result = txt.indexOf("l");
+// document.write("String:"+ txt + "<br>"+
+// "last Index of 'l':"+ (result-1));
+
+// // QUESTION 5
+// var country = "pakistani";
+// var result = country.indexOfindexOf(3);
+// document.write("String:"+ country+ "<br>"+
+// "Index of 'n':"+ result);
+
+// Question 6
+// var first_name = prompt("Enter first name"); 
+// var last_name = prompt("Enter last name"); 
+// var fullName = first_name +" " +last_name;
+// alert("welcome"+ fullName);
+
+// QUESTION 7
+// var p = "Hyderabad"
+// document.write(p.replace("Hyder","Islam"))
+
+// QUESTION 8
+// var p = "Ali and Sami are best friends. They play cricket and football together"
+// document.write(p.replace("and","&"))
+
+// QUESTION 9
+// var a = "472";
+// var b = parseInt(a);
+// document.write("value:"+a+"<br> Type:String <br>value:"+b+"<br> Type: number");
+
+// // QUESTION 10
+// var user_input = "peanuts"
+// var upper = user_input.toUpperCase();
+// document.write(upper)
+
+// QUESTION 11
+// var user_input = "javascript"
+// var title = user_input.toLocaleUpperCase();
+// document.write(title)
+
+// QUESTION 12
+// var num = 33.56;
+// var str = num.toLocaleString();
+// document.write(str);
+
+// QUESTION 13
+// var userName=prompt("Enter your Input: ");
+// var message;
+// var split=[];
+// var arr=[];
+// for(var i=0;i<userName.length;i++)
+// {
+//     split[i]=userName.split("&nbsp;");
+//     arr[i]=userName.charCodeAt(i);
+//     if(arr[i]!=33||arr[i]!=44||arr[i]!=46||arr[i]!=64)
+//     {
+//             message="Correct User Name";
+//     }
+//     while(arr[i]==33||arr[i]==44||arr[i]==46||arr[i]==64)
+//     {
+//         alert("please enter a valid userName");                                                                                                                   
+//         userName=prompt("Enter your Input: ");
+//         for(var i=0;i<userName.length;i++)
+//         {
+//             split[i]=userName.split("&nbsp;");
+//             arr[i]=userName.charCodeAt(i);
+//             if(arr[i]!=33||arr[i]!=44||arr[i]!=46||arr[i]!=64)
+//             {
+//                 break;
+//             }
+//         }
+//     }
+
+// }
+// alert(message);
+// QUESTION 14
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"]
+// var user_input = prompt("Welcome to ABC Bakery. What do you want to order sir/maam<br>");
+// var userinputU = user_input.toUpperCase()
+// var userinputl = user_input.toLowerCase()
+// for(var i=0;i<user_input;i++){
+//     if(A[i]!==user_input || userinputU || userinputl){
+//         document.write(user_input + "is not avaliable")
+//     }
+//     else{
+//         document.write(user_input + "is avaliable" )
+
+//     }
+// }
+
+// QUESTION 15
+// var pass = prompt("Enter Password")
+// var vld = /^[A-Za-z]\w{7,14}$/;
+// if(pass.match(vld)){
+//     document.write("correct");
+// }
+// else{
+// document.write("please enter a vlid password");
+// }
+
+// QUESTION 16
+// var university = "University of Karachi";
+// var ar = university.split('')
+// document.write(ar);
+
+// QUESTION 17
+// var userinput = prompt("Enter text");
+// var lst = userinput.charAt(userinput.length-1)
+// document.write("User Input:" + userinput +"<br>");
+// document.write("Last character "+lst);
+
+// QUESTION 18
+// var temp = "The quick brown fox jumps over the lazy dog";
+// var count = (temp.match(/the/g)|| []).length + (temp.match(/The/g)|| []).length;
+// document.write("TEXT:" + temp +"<br>");
+// document.write("There are "+count+ " occurrence(s) of word 'the'");
