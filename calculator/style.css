@@ -52,3 +52,22 @@ cursor: pointer;
     color: white;
     transition: 0.5s ease;
 }
+@media only screen and (max-width:1000px) {
+    .calculator{
+        max-width: 90% !important;
+        min-width: 50%;
+    }
+    .button{
+        width: 25% !important;
+    }
+  }
+
+  @media only screen and (max-width:375px) {
+    .calculator{
+        width: 90% !important;
+      
+    }
+    .button{
+        max-width: 25% !important;
+    }
+  }
