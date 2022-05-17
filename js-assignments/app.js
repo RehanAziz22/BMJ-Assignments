@@ -959,3 +959,171 @@
 // else{
 //     document.write("Try again")
 // }
+
+
+
+// ASSIGNMENT 18
+// QUESTION 1
+// var rightNow = new Date();
+// document.write(rightNow)
+
+// QUESTION 2
+// var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+// var now = new Date();
+// var theMonth = now.getMonth();
+// var nameOfMonth = monthNames[theMonth];
+// alert("Current Month: "+ nameOfMonth)
+
+// QUESTION 3
+// var currentDay = new Date();
+// currentDay.toString;
+// var b = currentDay.toString();
+// var c = b.slice(0,3);
+// document.write("Today is " + c);
+
+// QUESTION 4
+// var currentDay = new Date();
+// currentDay.toString;
+// var b = currentDay.toString();
+// var c = b.slice(0,3);
+// if(c="Sat" || "Sun"){
+// document.write("It’s Fun day");}
+// else{
+// document.write("It’s work day");}
+// }
+
+// QUESTION 5
+// var currentDay = new Date();
+// var TheDate = currentDay.getDate();
+// if(TheDate < 16){
+//     document.write("First fifteen days of the month")
+// }
+// else{
+//     document.write("Last days of the month.")
+// }
+
+// QUESTION 6
+// var todayDate = new Date();
+// var Todaymilli = todayDate.getTime();
+// var todayMin = todayDate.getMinutes();
+// var diff = Todaymilli - todayMin;
+// var diffMin = diff/(1000*60*60);
+// var accurateMin = Math.floor(diffMin);
+
+ 
+// document.write("Current Date: " + todayDate);
+// document.write("<br> Elapsed milliseconds since midnight, Jan 1, 1970: " + Todaymilli);
+// document.write("<br> Elapsed minutes since midnight, Jan 1, 1970: " + accurateMin)
+
+
+// QUESTION 7
+// var todayDate = new Date();
+// var b = todayDate.getHours()
+// if(b <= 12){
+//     document.write("Its AM")
+// }
+// else{
+//     document.write("Its PM")
+
+// }
+
+//QUESTION 8
+// var date = new Date("July 21, 1983 01:15:00");
+// var setDate = date.setFullYear( date.getFullYear() - 1 );
+// document.write(setDate)
+
+// var date = new Date();
+// date.setDate( date.getDate() - 6 );
+// date.setFullYear( date.getFullYear() - 1 );
+// $("#searchDateFrom").val((date.getMonth() ) + '/' + (date.getDate()) + '/' + (date.getFullYear()));
+//QUESTION 12
+// var myCurrentDate=new Date();
+// var myYear = new myCurrentDate.getFullYear()
+// var myPastDate = myYear - 100 
+// document.write(myPastDate)
+
+
+// QUESTION 13
+// var age = prompt("Enter Your age");
+// var todayDate = new Date();
+// var year = todayDate.getFullYear()
+// var birthYear = year - age;
+// document.write("Your age is "+age+"<br>Your birth year is "+birthYear) 
+
+// QUESTION 14
+// var customername = "ABC Customer";
+// var month = "February";
+// var units = 410;
+// var charges = 16;
+
+// var net = units*charges;
+// var late = 350;
+// var gross = net + late;
+
+// document.write("<h1>K-Electric Bill</h1><br> Month; " + month +"<br>Number of units; "+ units+ "<br>Charges per units; "+ charges +"<br>Net Amount Payable (within Due Date): "+net + "<br> Late Payment Surcharge: "+ late+ "<br> Gross Amount Payable (after Due Date):"+ gross)
+
+
+
+// ASSIGNMENT 18
+// CHAPTER 35-38
+// QUESTION 1
+// function tellDateTime (){
+//     var now = new Date();
+//     document.write(now);
+// }
+// tellDateTime()
+
+// QUESTION 2
+// function greatUser(){
+//     var first_name = prompt("Enter first name")
+//     var Last_name = prompt("Enter Last name")
+//     var name = first_name +" "+ Last_name
+//     document.write("Welcome "+ name)
+// }
+// greatUser()
+
+// QUESTION 3
+// function sum(){
+//     var first_num = prompt("Enter first num")
+//     var second_num = prompt("Enter second num")
+//     var sum = first_num + second_num
+//     document.write("Sum of two num is"+ sum)
+// }
+// sum()
+
+// QUESTION 4
+// function operation(){
+//     var num1 = prompt("first num ")
+//     var num2 = prompt("second num ")
+//     var ope = prompt("operator ")
+
+//     if(ope === "+" ){
+//         var sum = num1+ num2 
+//         document.write("sum = "+ sum )
+//     }
+        
+//     else if(ope === "-" ){
+//         var sub = num1 - num2 
+//         document.write("sub = "+ sub )
+//     } 
+//     else if(ope === "*" ){
+//         var mul = num1 * num2 
+//         document.write("mul = "+ mul )
+//     }
+//     else if(ope === "/" ){
+//         var divission = num1 / num2 
+//         document.write("divission = "+ divission )
+//     }
+//     else{
+//         document.write("wrong operator")
+//     }
+// }
+// operation()
+
+// QUESTION 4
+// function square(){
+//     var num = prompt("enter num")
+//     var square = num * num
+//     document.write("square "+ square)
+// }
+// square()
