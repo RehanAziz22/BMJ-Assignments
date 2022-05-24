@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <!-- color change -->
+    <section id="container">
+        <div id="heading">
+            <h1>HELLO SIR!!</h1>
+            <h1>JavaScript Assignment</h1>
+        </div>
+        <button onclick="bg_color()">Background Color Change</button>
+        <button onclick="textColor()">Text Color Change</button>
+    </section>
+    <!-- image -->
+    <section class="second_sec">
+        <img id="img" width="300" height="300" src="./jerry.png" alt="">
+        <br>
+        <button onclick="imgHandler('show')">SHOW IMG</button>
+        <button onclick="imgHandler('hide')">HIDE IMG</button>
+        <button onclick="imgHandler('small')">SMALL IMG</button>
+        <button onclick="imgHandler('large')">LG IMG</button>
+    </section>
+    <!-- bulb -->
+    <section class="third_sec">
+
+        <!-- <div style="margin:  0 auto;  width : 50% "> -->
+        <img src="./ONbulb.jpg" onmouseout="imgChange('off' , this)" onmouseover="imgChange('on' , this)" alt="">
+        <!-- </div> -->
+    </section>
+
+    <section class="fourth_sec">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, maiores iste magni dolorem accusamus aliquam autem enim ea pariatur, quae necessitatibus minus fugiat excepturi rem sit facere dolores provident eum.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, maiores iste magni dolorem accusamus aliquam autem enim ea pariatur, quae necessitatibus minus fugiat excepturi rem sit facere dolores provident eum.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, maiores iste magni dolorem accusamus aliquam autem enim ea pariatur, quae necessitatibus minus fugiat excepturi rem sit facere dolores provident eum.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, maiores iste magni dolorem accusamus aliquam autem enim ea pariatur, quae necessitatibus minus fugiat excepturi rem sit facere dolores provident eum.</p>
+        <button onclick="paraColor()">Text Color Change</button>
+    
+    </section>
+</body>
+
+<script src="app.js"></script>
+
+</html>

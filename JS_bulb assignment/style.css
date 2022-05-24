@@ -1,0 +1,31 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#container, .second_sec, .fourth_sec{
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+#heading{
+    margin-bottom: 30px;
+}
+button{
+    height: 40px;
+    padding: 10px;
+    background-color: transparent;
+}
+.second_sec{
+    border: solid 3px;
+}
+.second_sec > button{
+    margin: 30px;
+}
+.third_sec{
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    border: solid 3px;
+   
+}

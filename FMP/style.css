@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header{
+    /* border: 1px solid green; */
+    padding: 0px !important;
+    background-color: black;
+}
+.my_navbar{
+    /* border: 1px solid red; */
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding:  0px 45px !important;
+}
+.my_logo{
+width: 30%;
+
+}
+.my_navlinks{
+    /* border: 1px solid green; */
+    width: 70%;
+    
+}
+.my_navlinks ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.my_navlinks ul li{
+    /* color: #FFD700; */
+    /* color: #F2E87C; */
+    /* color: #CEA93E; */
+    background: -webkit-linear-gradient(#ffe769, #CEA93E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: "Neue Montreal", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: auto 28px  ;
+}
+.image-slider{
+    padding: 0px !important;
+    position: relative;
+    
+}
+.company_logo{
+    position: absolute;
+    top: 0%;
+    z-index: 100;
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.company_logo img{
+width: 55%;
+margin: 50px ;
+
+}
+.carousel-myitem{
+    background-image: linear-gradient(to top, black, black);
+}
+.carousel-myitem img{
+    height: 90vh;
+    width: 100%;
+    opacity: 0.2;
+}
