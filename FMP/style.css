@@ -7,6 +7,9 @@
     /* border: 1px solid green; */
     padding: 0px !important;
     background-color: black;
+    top: 0%;
+    z-index: 1100;
+    position: sticky;
 }
 .my_navbar{
     /* border: 1px solid red; */
@@ -19,10 +22,29 @@ padding:  0px 45px !important;
 width: 30%;
 
 }
+.menu-icon{
+        width: 28px;
+        margin-left: 20px;
+        display: none;
+        /* background-color: linear-gradient(to top, #ffe769, #CEA93E); */
+        /* background-color: #CEA93E; */
+        background: radial-gradient(#ffe769,#CEA93E);
+        
+}
+
 .my_navlinks{
     /* border: 1px solid green; */
     width: 70%;
-    
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.my_navlinks div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
 }
 .my_navlinks ul{
     list-style: none;
@@ -42,7 +64,7 @@ width: 30%;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
     font-family: "Neue Montreal", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     margin: auto 28px  ;
 }
 .image-slider{
@@ -73,4 +95,96 @@ margin: 50px ;
     height: 90vh;
     width: 100%;
     opacity: 0.2;
+}
+
+/* ////////////team  */
+.team{
+   text-align: center;
+   padding: 50px;
+   /* background-image: url(https://media.istockphoto.com/photos/table-setting-for-an-event-party-or-wedding-reception-picture-id479977238?k=20&m=479977238&s=612x612&w=0&h=6yuuuuHTvosXEGwlPTdY8V4N95issAzrTTQ9ZKN1w3E=); */
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   
+}
+.team h1,h3{
+    margin: 15px 0px;
+    background: -webkit-linear-gradient(#ffe769, #CEA93E);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.avatar{
+    padding: 10px;
+    height: 400px;
+    position: relative;
+}
+.avatar>img:hover {
+    border: 3px solid #ffeb13;
+}
+
+.avatar_info:hover {
+    color: white;
+    transition: 0.5s ease;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  }
+
+  
+.avatar img{
+    border-radius: 50%;
+}
+.avatar h3{
+    margin: 30px auto;
+}
+.avatar_info{
+  position: absolute;
+  display: none;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+.avatar_info i{
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 950px){
+    .my_navlinks ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background: #333;
+        max-width: 100% ;
+        overflow: hidden;
+        
+        transition: ease 0.5s;
+    }
+    .my_navlinks ul li{
+        display: block ;
+        text-align: end;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .my_navlinks ul li a{
+        color: #fff;
+    }    
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        width: 45px;
+        padding: 10px;
+        height: 50px;
+    }
+
 }

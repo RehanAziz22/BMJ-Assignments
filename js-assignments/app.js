@@ -1127,3 +1127,21 @@
 //     document.write("square "+ square)
 // }
 // square()
+
+// DOM 
+// 58-67JAVASCRIPT
+// Q1 a 
+// var parent = document.getElementById("main-content");
+// console.log(parent)
+// Q1 b 
+// var childs = document.getElementsByTagName("p")
+// console.log(childs)
+
+// var d = document.getElementById("main-content");
+// var p = d.childNodes[1];
+// var contents = p.innerHTML;
+
+
+// var kidNode = document.getElementById("lastName");
+// var pNode = kidNode.parentNode;
+
