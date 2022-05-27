@@ -1,0 +1,283 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.header{
+    /* border: 1px solid green; */
+    padding: 0px !important;
+    background-color: black;
+    top: 0%;
+    z-index: 1100;
+    position: sticky;
+}
+.my_navbar{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:  0px 45px !important;
+}
+.my_logo{
+    width: 30%;
+
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+    background: radial-gradient(#ffe769,#CEA93E);
+        
+}
+
+.my_navlinks{
+    /* border: 1px solid green; */
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.my_navlinks div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+.my_navlinks ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.my_navlinks ul li{
+    /* color: #FFD700; */
+    /* color: #F2E87C; */
+    /* color: #CEA93E; */
+    background: -webkit-linear-gradient(#ffe769, #CEA93E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: "Neue Montreal", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin: auto 28px  ;
+}
+
+/* ----------------- */
+.banner_text{
+    position: absolute;
+    top: 0%;
+    z-index: 100;
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.banner_text img{
+width: 55%;
+margin: 50px ;
+
+}
+.mybanner{
+    padding: 0px !important;
+    position: relative;
+}
+
+/*  */
+.banner_image{
+    background-image: linear-gradient(to top, black, black);
+}
+.banner_image img{
+    height: 90vh;
+    width: 100%;
+    opacity: 0.2;
+}
+
+.banner_text>div{
+    border-left: #CEA93E 3px solid;
+    padding: 0px 19px;
+}
+.banner_text div h1{
+    background: -webkit-linear-gradient(#ffe769, #CEA93E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+    font-family: monospace,fantasy, sans-serif;
+}
+.animate__animated.animate__backInRight {
+    /* --animate-duration: 2s; */
+  }
+/* ------------------footer------------------- */
+.myfooter {
+    /* background: radial-gradient(#00272C,#000); */
+    background-color: black;
+    height: 100%;
+    
+  }
+
+  .section5 {
+    max-width: 90%;
+    min-width: 90%;
+    margin: auto;
+  }
+
+  .footer_top {
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer_top .foo-col1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.footer_top .foo-col1 img{
+    margin-left: -10px;
+}
+  .foo-col1 p {
+    padding-left: 35px;
+    display: flex;
+    background: -webkit-linear-gradient(#ffe769, #CEA93E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .foo-col2,.foo-col3{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+.foo-col2 ul,.foo-col3 ul{
+list-style: none;
+}
+.foo-col2 ul li,.foo-col3 ul li{
+    list-style: none;
+    padding: 3px 0px;
+    font-size: 18px;
+    background: -webkit-linear-gradient(#ffe769, #CEA93E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    .foo-col2 i,.foo-col3 i{
+        margin-right: 15px;
+    }
+.li_head{
+    font-weight: 600;
+    font-size: 18px;
+}
+  .footer_bottom {
+    color: #fff;
+    border-top: 1px solid #CEA93E;
+    text-align: center;
+    padding: 10px 0px;
+    margin: auto 56px;
+  }
+  @media only screen and (max-width: 1000px){
+    .banner_text div h1{
+        font-size: 80px;
+    }
+    }
+    
+  @media only screen and (max-width: 950px){
+    .my_navlinks ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background: #333;
+        max-width: 100% ;
+        overflow: hidden;
+        
+        transition: ease 0.5s;
+    }
+    .my_navlinks ul li{
+        display: block ;
+        text-align: end;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .my_navlinks ul li a{
+        color: #fff;
+    }    
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        width: 45px;
+        padding: 10px;
+        height: 50px;
+    }
+.my_navbar{
+  padding: 0px 10px !important;
+}
+.banner_text img{
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 990px){
+.footer_top .foo-col1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer_top .foo-col2,.footer_top .foo-col3{
+      justify-content: flex-start;
+  }
+  .footer_top ul{
+      margin-left: 32px;
+    }
+    .footer_top .foo-col1{
+        margin-bottom: 20px;
+    }
+    .foo-col1 p{
+        padding-left: 0px !important;
+        margin: 10px 35px;
+        padding-bottom: 20px;
+        text-align: left;
+        color: #CEA93E;
+        border-bottom: 1px solid #CEA93E;
+    }
+}
+@media only screen and (max-width: 750px){
+    .banner_text div h1{
+        font-size: 60px;
+    }
+    }
+
+@media only screen and (max-width: 570px){
+    .foo-col2 ul{
+        width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #CEA93E;
+    }
+    .footer_top {
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .banner_text div h1{
+        font-size: 38px;
+    }
+    .banner_image img{
+        height: 40vh;
+        width: 100%;
+        opacity: 0.2;
+    }
+    .banner_text{
+        height: 35vh;
+    }
+    }

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EVENT PARTNERS</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="all.css">
+  <!-- Animate.css  //library-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Aos  //library-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- font-awesome  -->
+  <script src="https://kit.fontawesome.com/4ac00c8b3b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Boostrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- -------- header-------- -->
+
+  <div class="container-fluid header " id="navbar">
+    <div class="container-fluid my_navbar">
+      <!-- //logo -->
+      <div class="my_logo">
+        <img src="./assets/logo.png" width="250px" height="70px" alt="">
+      </div>
+      <!-- //navlinks -->
+      <div class="my_navlinks">
+        <div>
+          <ul id="MenuItems">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About us</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./videos.html">Videos</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <img src="./assets/menu.png" width="80px" height="70px" class="menu-icon" onclick="menutoggle()" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- -------- banner-------- -->
+  <section>
+    <div class="container-fluid image-slider">
+      <div class="company_logo">
+        <img src="./assets/logo.png" alt="">
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-myitem active">
+            <img class="d-block w-100" src="./assets/carousel-1.jpg" height="400px" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>...</h5>
+                      <p>...</p> -->
+            </div>
+          </div>
+          <div class="carousel-item carousel-myitem">
+            <img class="d-block w-100" src="./assets/carousel-2.jpg" height="400px" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>...</h5>
+                      <p>...</p> -->
+            </div>
+          </div>
+          <div class="carousel-item carousel-myitem">
+            <img class="d-block w-100" src="./assets/carousel-3.jpg" height="400px" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>...</h5>
+                      <p>...</p> -->
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- -------- WELCOME-------- -->
+  <section>
+    <div class="container_fluid section2">
+      <div class="row mt-4">
+        <div class="text_con col-lg-7 col-md-6 col-sm-12">
+          <div>
+            <h1>Welcome to Event Partners</h1>
+            <h3>“WE MAKE UNFORGETTABLE MEMORIES” </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus consectetur, totam exercitationem
+              animi ea beatae quas id inventore perspiciatis nulla laborum, quibusdam tenetur explicabo nemo, adipisci
+              consequatur? Voluptatem eos enim aliquam consequuntur ipsum porro illum voluptatibus quia doloribus
+              repudiandae delectus minima ipsa sequi quisquam, itaque iste hic reiciendis nisi dolorem?</p>
+          </div>
+        </div>
+        <div class="side_img col-lg-5 col-md-6 col-sm-12">
+          <div>
+            <img src="./assets/logo.jpg" width="400px" height="440px" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -------- SErvices-------- -->
+  <section>
+    <div class="container_fluid section3_bg">
+      <div class="section3">
+        <h1>A RANGE OF SERVICES
+          ADAPTED TO YOUR NEEDS</h1>
+        <div class="row">
+          <div class="service_card col-sm-12 col-md-4 col-lg-4">
+            <div class="service_content">
+              <img src="./assets/servive-1.jpg" width="300px" height="250px" alt="">
+              <div class="card_text">
+                <h3>WEDDING PLANNING</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima ullam dolorem qui. Magnam
+                  accusamus
+                  perferendis culpa nostrum voluptas, ipsum vitae enim in id neque sunt dolor nesciunt vero fuga!</p>
+              </div>
+            </div>
+          </div>
+          <div class="service_card col-sm-12 col-md-4 col-lg-4">
+            <div class="service_content">
+              <img src="./assets/servive-2.jpg" width="300px" height="250px" alt="">
+              <div class="card_text">
+                <h3>CORPORATE EVENTS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima ullam dolorem qui. Magnam
+                  accusamus
+                  perferendis culpa nostrum voluptas, ipsum vitae enim in id neque sunt dolor nesciunt vero fuga!</p>
+              </div>
+            </div>
+          </div>
+          <div class="service_card col-sm-12 col-md-4 col-lg-4">
+            <div class="service_content">
+              <img src="./assets/servive-3.jpg" width="300px" height="250px" alt="">
+              <div class="card_text">
+                <h3>BIRTHDAY PARTY</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima ullam dolorem qui. Magnam
+                  accusamus
+                  perferendis culpa nostrum voluptas, ipsum vitae enim in id neque sunt dolor nesciunt vero fuga!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -------- header-------- -->
+  <section></section>
+  <!-- -------- TEAM-------- -->
+  <section>
+    <div class="container_fluid team">
+      <h1>MEET THE TEAM</h1>
+      <div class="container_fluid">
+        <div class="row justify-content-center">
+          <div class="avatar col-lg-3 col-md-5 col-sm-6">
+            <div class="avatar_hover">
+              <img src="./assets/rizwan.jpg" alt="" width="250px" height="300px">
+              <div class="avatar_info" id="avatar_info">
+                <a href="https://www.facebook.com/muhammad.rizwan993" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a>
+                <a href="https://wa.me/03328293125" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/rizwan.herre/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+            <h3>M RIZWAN</h3>
+          </div>
+          <div class="avatar col-lg-3 col-md-5 col-sm-6">
+            <div class="avatar_hover">
+              <img src="./assets/raza.jpg" alt="" width="250px" height="300px">
+              <div class="avatar_info" id="avatar_info2">
+                <a href="https://www.facebook.com/profile.php?id=100063818051275" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a>
+                <a href="https://wa.me/03322293297" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/muhammadrazawagla/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+            <h3>M RAZA</h3>
+          </div>
+          <div class="avatar col-lg-3 col-md-5 col-sm-6">
+            <div class="avatar_hover">
+              <img src="./assets/tanzeel.jpg" alt="" width="250px" height="300px">
+              <div class="avatar_info" id="avatar_info3">
+                <a href="https://www.facebook.com/tanzeelahmed.khalsai.7" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a>
+                <a href="https://wa.me/03343487405" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/tanzeel.khalsai/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+            <h3>M TANZEEL</h3>
+          </div>
+          <div class="avatar col-lg-3 col-md-5 col-sm-6">
+            <div class="avatar_hover">
+              <img src="./assets/hassan.jpg" alt="" width="250px" height="300px">
+              <div class="avatar_info" id="avatar_info4">
+                <a href="https://www.facebook.com/Hassan.heere" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a>
+                <a href="https://wa.me/03343487457" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/hassan.heree/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+            <h3>M HASSAN</h3>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -------- header-------- -->
+  <!-- -------- header-------- -->
+
+  <!-- -------- header-------- -->
+  <!-- -------- -------- -->
+  <!-- -------- footer-------- -->
+
+  <section>
+    <div class="container_fluid myfooter">
+      <div class="section5">
+        <div class="footer_top">
+          <div class="foo-col1 col-sm-12 col-md-12 col-lg-5">
+            <img src="./assets/logo.png" width="300px" height="200px" alt="">
+            <p>We organize all kinds of events like, Engagement, Wedding Ceremony, Mehandi, Mehfil-e-Naat, Baby Shower,
+              Birthday Party, Bridal Shower, Corporate events and much more.</p>
+          </div>
+          <div class="foo-col2 col-sm-4 col-md-4 col-lg-3">
+            <ul>
+              <li class="li_head">USEFUL LINKS</a></li>
+              <li><a href="./index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+              <li><a href="./about.html"><i class="fa-solid fa-circle-info"></i>About</a></li>
+              <li><a href="./gallery.html"><i class="fa-solid fa-images"></i>Gallery</a></li>
+              <li><a href="./videos.html"><i class="fa-solid fa-circle-play"></i>Videos</a></li>
+              <li><a href="./contact.html"><i class="fa-solid fa-id-badge"></i>Contact</a></li>
+            </ul>
+          </div>
+          <div class="foo-col3 col-sm-8 col-md-6 col-lg-4">
+            <ul>
+              <li class="li_head">SOCIAL LINKS</a></li>
+              <li><a href="mailto:toeventpartners@gmail.com" target="_blank"><i
+                    class="fa-solid fa-envelope"></i>toeventpartners@gmail.com</a></li>
+              <li><a href="https://www.facebook.com/eventpartnerss/" target="_blank"><i
+                    class="fa-brands fa-facebook"></i>@eventpartnerss</a></li>
+              <li><a href="https://wa.me/+923302425593" target="_blank"><i class="fa-brands fa-whatsapp"></i>+92 330
+                  2425593</a></li>
+              <li><a href="https://www.instagram.com/eventpartnerss/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i>EventPartners</a></li>
+              <li><a href="https://www.youtube.com/channel/UCXDqo26MM7IN_La4OdRBWxQ/playlists" target="_blank"><i
+                    class="fa-brands fa-youtube"></i>EventPartners</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <p>&copy; 2022 Copyright: Event Partner</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+  integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+</html>
