@@ -280,4 +280,7 @@ list-style: none;
     .banner_text{
         height: 35vh;
     }
+    .side_img{
+        padding: 0px 0px 40px;
+    }
     }

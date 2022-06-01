@@ -21,34 +21,64 @@ window.onscroll = function () {
   prevScrollpos = currentScrollPos;
 };
 
+function imgHandler1() {
+  var allToShow = document.getElementsByClassName("all");
+  for (var i = 0; i < allToShow.length; i++) {
+    allToShow[i].style.visibility = "visible";
+    allToShow[i].style.display = "block";
+  }
+}
+function imgHandler2() {
+  var stageToHide = document.getElementsByClassName("stage");
+  var decorationToHide = document.getElementsByClassName("decoration");
+  var cakeToHide = document.getElementsByClassName("cake");
 
-// function imgChange(toggle,e) {
-//   var div = document.getElementById("avatar_info");
-//   console.log(toggle,e)
-//   if (toggle == "show") {
-//     e = div.style.display = "block"
-//     return;
-//     // div.style.display = "block";
-//   } else if (toggle == "off") {
-//     e= div.style.display = "none";
-//     return;
-//   } else {
-//     return;
-//   }
-// }
+  for (var i = 0; i < decorationToHide.length; i++) {
+    decorationToHide[i].style.visibility = "hidden";
+    decorationToHide[i].style.display = "none";
+  }
+  for (var i = 0; i < stageToHide.length; i++) {
+    stageToHide[i].style.visibility = "visible";
+    stageToHide[i].style.display = "block";
+  }
+  for (var i = 0; i < cakeToHide.length; i++) {
+    cakeToHide[i].style.visibility = "hidden";
+    cakeToHide[i].style.display = "none";
+  }
+}
+function imgHandler3() {
+  var stageToHide = document.getElementsByClassName("stage");
+  var decorationToHide = document.getElementsByClassName("decoration");
+  var cakeToHide = document.getElementsByClassName("cake");
 
+  for (var i = 0; i < decorationToHide.length; i++) {
+    decorationToHide[i].style.visibility = "visible";
+    decorationToHide[i].style.display = "block";
+  }
+  for (var i = 0; i < stageToHide.length; i++) {
+    stageToHide[i].style.visibility = "hidden";
+    stageToHide[i].style.display = "none";
+  }
+  for (var i = 0; i < cakeToHide.length; i++) {
+    cakeToHide[i].style.visibility = "hidden";
+    cakeToHide[i].style.display = "none";
+  }
+}
+function imgHandler4() {
+  var stageToHide = document.getElementsByClassName("stage");
+  var decorationToHide = document.getElementsByClassName("decoration");
+  var cakeToHide = document.getElementsByClassName("cake");
 
-// function imgChange(toggle,e) {
-//   var div = document.getElementById("avatar_info");
-//   console.log(toggle,e)
-//   if (toggle == "show") {
-//     e = div.style.display = "block"
-//     return;
-//     // div.style.display = "block";
-//   } else if (toggle == "off") {
-//     e= div.style.display = "none";
-//     return;
-//   } else {
-//     return;
-//   }
-// }
+  for (var i = 0; i < cakeToHide.length; i++) {
+    cakeToHide[i].style.visibility = "visible";
+    cakeToHide[i].style.display = "block";
+  }
+  for (var i = 0; i < decorationToHide.length; i++) {
+    decorationToHide[i].style.visibility = "hidden";
+    decorationToHide[i].style.display = "none";
+  }
+  for (var i = 0; i < stageToHide.length; i++) {
+    stageToHide[i].style.visibility = "hidden";
+    stageToHide[i].style.display = "none";
+  }
+}
