@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.section3,.section4,.section5{
+    max-width: 90%;
+    min-width: 90%;
+    margin: 40px auto;
+}
+/* ----------services----------- */
+.section3 h1{
+    background: -webkit-linear-gradient(#ffe769, #CEA93E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: fantasy, sans-serif;
+    font-size: 50px;
+    padding: 15px;
+}
+.services_content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.services_card{
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 30px;
+    border: #CEA93E 5px solid;
+    margin: 20px 0px;
+}
+.services_card img{
+    width: 100%;
+    height: 90%;
+}
+.services_card:hover .card_text{
+    top: 40px;
+}
+.services_card .card_text{
+    position: absolute;
+    border-radius: 30px 0px 0px 0px;
+    top: 230px;
+    height: 300px;
+    transition: all 0.3s ease;   
+    padding: 15px 30px;
+    background-color: #ffe769;
+}
+.card_text h3{
+    font-family: fantasy,sans-serif;
+    margin-bottom: 5px;
+}
+.section5{
+    margin-bottom: 0px;
+}
+@media only screen and (max-width: 768px){
+    .section3 h1{
+        font-size: 40px;
+    }
+    .services_card h3{
+        font-size: 25px;
+    }
+    .services_card .card_text{
+        top: 235px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .section3 h1{
+        font-size: 32px;
+    }
+}

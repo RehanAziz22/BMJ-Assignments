@@ -53,7 +53,7 @@ padding: 5px;
   height: 100%;
 }
 
-.text_con h1 {
+.text_con .typing-demo h1 {
   font-size: 60px;
 }
 
@@ -77,6 +77,29 @@ padding: 80px 0px;
 .side_img img{
   width: 100%;
 }
+  /* typing animation */
+  
+  .typing-demo h1{
+    width: 11ch;
+    animation: typing 2s steps(11), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
 /* --------------client feedback------------ */
 .section3_bg{
     background-image: url(./assets/servive-1.jpg);

@@ -1,3 +1,5 @@
+//css library
+
 var MenuItems = document.getElementById("MenuItems");
 
 MenuItems.style.maxHeight = "0px";
@@ -82,3 +84,4 @@ function imgHandler4() {
     stageToHide[i].style.display = "none";
   }
 }
+

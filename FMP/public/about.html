@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ABOUT</title>
-  <link rel="stylesheet" href="all.css">
-  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="./css/all.css">
+  <link rel="stylesheet" href="./css/about.css">
   <!-- Animate.css  //library-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- Aos  //library-->
@@ -49,7 +49,7 @@
       <div class="banner_text animate__animated animate__fadeIn">
         <div>
           <h1 class="animate__animated animate__fadeInLeft animate__delay-0.5s">ABOUT</h1>
-          <h1 class="animate__animated animate__fadeInLeft animate__delay-1s"> EVENT PARTNER</h1>
+          <h1 class="animate__animated animate__fadeInLeft animate__delay-1s"> EVENT PARTNERS</h1>
         </div>
       </div>
       <div class="banner_image">
@@ -69,26 +69,26 @@
             client is unique and we believe our services should be as well.</h5>
         </div>
         <div class="row service_container">
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="service_card"><i class="fa-solid fa-face-laugh-wink "></i>
+          <div class="col-sm-12 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-duration="500">
+            <div class="service_card" ><i class="fa-solid fa-face-laugh-wink "></i>
               <p>Enjoy the event with your friends</p>
               <i class="fa-solid fa-1 i-no"></i>
             </div>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="service_card"><i class="fa-solid fa-house-circle-check"></i>
+          <div class="col-sm-12 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-duration="900">
+            <div class="service_card" ><i class="fa-solid fa-house-circle-check"></i>
               <p>Find the best venue for yourself</p>
               <i class="fa-solid fa-2 i-no"></i>
             </div>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="service_card"><i class="fa-solid fa-people-group"></i>
+          <div class="col-sm-12 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="service_card" ><i class="fa-solid fa-people-group"></i>
               <p>Connect with the perfect vendors</p>
               <i class="fa-solid fa-3 i-no"></i>
             </div>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="service_card"><i class="fa-solid fa-handshake-angle"></i>
+          <div class="col-sm-12 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-duration="1900">
+            <div class="service_card" ><i class="fa-solid fa-handshake-angle"></i>
               <p>Let us help you with the planning</p>
               <i class="fa-solid fa-4 i-no"></i>
             </div>
@@ -104,7 +104,11 @@
         <div class="row mt-4 align-items-center">
           <div class="text_con col-lg-7 col-md-6 col-sm-12">
             <div>
-              <h1>OUR STORY !</h1>
+              
+                <div class="typing-demo">
+                  <h1>OUR STORY !</h1>
+                </div>
+              
               <!-- <h3>“WE MAKE UNFORGETTABLE MEMORIES” </h3> -->
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus consectetur, totam exercitationem
                 animi ea beatae quas id inventore perspiciatis nulla laborum, quibusdam tenetur explicabo nemo, adipisci
@@ -178,7 +182,7 @@
               <li class="li_head">USEFUL LINKS</a></li>
               <li><a href="./index.html"><i class="fa-solid fa-house"></i>Home</a></li>
               <li><a href="./about.html"><i class="fa-solid fa-circle-info"></i>About</a></li>
-              <li><a href="./services.html"><i class="fa-solid fa-images"></i>Services</a></li>
+              <li><a href="./services.html"><i class="fa-solid fa-street-view"></i>Services</a></li>
               <li><a href="./portfolio.html"><i class="fa-solid fa-images"></i>Portfolio</a></li>
               <li><a href="./contact.html"><i class="fa-solid fa-id-badge"></i>Contact</a></li>
             </ul>
@@ -200,7 +204,7 @@
           </div>
         </div>
         <div class="footer_bottom">
-          <p>&copy; 2022 Copyright: Event Partner</p>
+          <p>&copy; 2022 Copyright: Event Partners</p>
         </div>
       </div>
 
@@ -215,5 +219,8 @@
   integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
   integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+</script>
 </html>
