@@ -47,7 +47,7 @@ var quizQuestions = [
     num: 5,
     question: "Attribute is used to define inline styles is-",
     Option: {
-      a: "style ",
+      a: "style",
       b: "type",
       c: "class",
       d: "None of the above",
