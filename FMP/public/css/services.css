@@ -68,3 +68,16 @@
         font-size: 32px;
     }
 }
+@media only screen and (max-width: 350px){
+    .section3 h3{
+        font-size: 22px;
+    }
+    .section3 p{
+        font-size: 14px;
+    }
+    .services_card .card_text{
+        top: 240px;
+        padding: 15px 20px;
+    }
+    
+}

@@ -124,6 +124,7 @@ padding: 80px 0px;
 .client_feedback{
     position: absolute;
     /* height: 400px; */
+    z-index: 10;
     height: 100%;
     padding: 10px;
     color: white !important;
@@ -139,9 +140,16 @@ padding: 80px 0px;
 .client_feedback h1{
     color: white;
 margin-bottom: 130px;
+font-family: serif;
+font-size: 60px;
+}
+.client_feedback h3{
+  font-family: fantasy,sans-serif;
+
 }
 .client_feedback p{
     color: white !important;
+font-family: none;
 }
 .carousel-indicators{
     top: 100px !important;
@@ -151,11 +159,16 @@ margin-bottom: 130px;
     width: 100%;
     opacity: 0.2;
 }
-
+.carousel-indicators li{
+  display: none !important;
+}
 @media only screen and (max-width: 500px){
     .comp_info {
         padding: 0px;
     }
+    .text_con .typing-demo h1 {
+      font-size: 40px;
+  }
     .comp_info h1{
         font-size: 30px;
     }
@@ -164,5 +177,9 @@ margin-bottom: 130px;
     }
     .client_feedback h1{
         font-size: 35px;
+        margin-bottom: 40px;
+    }
+    .client_image img{
+      height: 400px;
     }
     }
